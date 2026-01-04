@@ -2,24 +2,35 @@
   "version": 1,
   "updated": "2026-01-04",
   "packages": {
+    "pls": {
+      "version": "0.2.0",
+      "size": 2067364,
+      "sha256": "7e7193e9c0bee65790e114322ed9746e2c8158edffc003493f57771f7ed9411e",
+      "deps": [],
+      "desc": "pls package"
+    },
     "yplay": {
       "version": "0.1.0",
       "size": 701425,
       "sha256": "ad85e20bd5484d14d72c1be05c9e4b8042e65a700209ced39a4c29b46b48f07a",
       "deps": [],
       "desc": "yplay package"
-    },
-    "pls": {
-      "version": "0.1.0",
-      "size": 2032480,
-      "sha256": "a7c08b040d11089078980453c965868843d49456ff1c5f672ede865115766c11",
-      "deps": [],
-      "desc": "pls package"
     }
   },
   "bundles": {
-    "aura-core": ["pls", "yplay"],
-    "gaming": ["steam", "discord", "lutris"],
-    "dev-rust": ["rustup", "cargo-watch", "rust-analyzer"]
+    "aura-core": [
+      "pls",
+      "yplay"
+    ],
+    "gaming": [
+      "steam",
+      "discord",
+      "lutris"
+    ],
+    "dev-rust": [
+      "rustup",
+      "cargo-watch",
+      "rust-analyzer"
+    ]
   }
 }
