@@ -2,26 +2,22 @@
   "version": 1,
   "updated": "2026-01-04",
   "packages": {
+    "pls": {
+      "version": "0.2.2",
+      "size": 2066902,
+      "sha256": "01d306b2b3539a7ab84a01f62c518bd6666b9d4854caab0fbd2958fa6863ba70",
+      "deps": [],
+      "desc": "pls package"
+    },
     "yplay": {
       "version": "0.1.0",
       "size": 701425,
       "sha256": "ad85e20bd5484d14d72c1be05c9e4b8042e65a700209ced39a4c29b46b48f07a",
       "deps": [],
       "desc": "yplay package"
-    },
-    "pls": {
-      "version": "0.2.1",
-      "size": 2068153,
-      "sha256": "754b972013f0783c65b5034b8bf82ea592536ee757d58af5089da95be15b568c",
-      "deps": [],
-      "desc": "pls package"
     }
   },
   "bundles": {
-    "aura-core": [
-      "pls",
-      "yplay"
-    ],
     "dev-rust": [
       "rustup",
       "cargo-watch",
@@ -31,6 +27,10 @@
       "steam",
       "discord",
       "lutris"
+    ],
+    "aura-core": [
+      "pls",
+      "yplay"
     ]
   }
 }
