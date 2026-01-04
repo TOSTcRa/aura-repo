@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "updated": "2026-01-04",
+  "packages": {
+    "pls": {
+      "version": "0.1.0",
+      "size": 2032480,
+      "sha256": "a7c08b040d11089078980453c965868843d49456ff1c5f672ede865115766c11",
+      "deps": [],
+      "desc": "pls package"
+    }
+  }
+}
