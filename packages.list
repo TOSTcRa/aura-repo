@@ -1,0 +1,73 @@
+# Aura Linux packages list
+# Format: package-name (from Debian/Ubuntu repos)
+# Lines starting with # are comments
+
+# === BASIC UTILITIES ===
+git
+curl
+wget
+vim
+nano
+htop
+tree
+unzip
+zip
+rsync
+tmux
+screen
+jq
+ripgrep
+fd-find
+bat
+exa
+fzf
+neofetch
+
+# === NETWORKING ===
+openssh-client
+openssh-server
+nmap
+net-tools
+iproute2
+dnsutils
+traceroute
+
+# === DEVELOPMENT ===
+build-essential
+gcc
+g++
+make
+cmake
+meson
+ninja-build
+pkg-config
+autoconf
+automake
+gdb
+valgrind
+strace
+
+# === SCRIPTING ===
+python3
+python3-pip
+nodejs
+npm
+
+# === VERSION CONTROL ===
+git-lfs
+subversion
+mercurial
+
+# === COMPRESSION ===
+gzip
+bzip2
+xz-utils
+zstd
+p7zip-full
+
+# === SYSTEM ===
+sudo
+systemd
+udev
+dbus
+polkit

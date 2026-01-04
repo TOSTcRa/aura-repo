@@ -1,0 +1,157 @@
+name: Build Packages
+
+on:
+  workflow_dispatch:
+    inputs:
+      packages:
+        description: 'Packages to build (comma-separated, or "all" for packages.list)'
+        required: false
+        default: 'all'
+  schedule:
+    - cron: '0 3 * * 0'  # Every Sunday at 3 AM
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y zstd
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh
+
+      - name: Parse package list
+        id: packages
+        run: |
+          if [ "${{ github.event.inputs.packages }}" = "all" ] || [ -z "${{ github.event.inputs.packages }}" ]; then
+            PKGS=$(grep -v '^#' packages.list | grep -v '^$' | tr '\n' ' ')
+          else
+            PKGS="${{ github.event.inputs.packages }}"
+            PKGS=$(echo "$PKGS" | tr ',' ' ')
+          fi
+          echo "list=$PKGS" >> $GITHUB_OUTPUT
+          echo "Building packages: $PKGS"
+
+      - name: Download and convert packages
+        run: |
+          mkdir -p packages
+
+          for pkg in ${{ steps.packages.outputs.list }}; do
+            echo "=== Processing $pkg ==="
+
+            # Download .deb
+            apt-get download "$pkg" 2>/dev/null || {
+              echo "warning: $pkg not found, skipping"
+              continue
+            }
+
+            DEB_FILE=$(ls -1 ${pkg}*.deb 2>/dev/null | head -1)
+            if [ -z "$DEB_FILE" ]; then
+              echo "warning: no .deb file for $pkg"
+              continue
+            fi
+
+            # Convert to .pls
+            ./scripts/deb-to-pls.sh "$DEB_FILE" packages/ || {
+              echo "warning: failed to convert $pkg"
+            }
+
+            rm -f "$DEB_FILE"
+          done
+
+      - name: Generate index.json
+        run: |
+          echo "Generating index.json..."
+
+          cat > generate-index.py << 'PYTHON'
+          import json
+          import hashlib
+          import os
+          from datetime import date
+
+          packages_dir = "packages"
+          index = {
+              "version": 1,
+              "updated": str(date.today()),
+              "packages": {},
+              "bundles": {}
+          }
+
+          # Load existing bundles if index exists
+          if os.path.exists("index.json"):
+              with open("index.json") as f:
+                  old_index = json.load(f)
+                  index["bundles"] = old_index.get("bundles", {})
+
+          for filename in os.listdir(packages_dir):
+              if not filename.endswith(".pls"):
+                  continue
+
+              filepath = os.path.join(packages_dir, filename)
+
+              # Get size
+              size = os.path.getsize(filepath)
+
+              # Calculate SHA256
+              sha256 = hashlib.sha256()
+              with open(filepath, "rb") as f:
+                  for chunk in iter(lambda: f.read(8192), b""):
+                      sha256.update(chunk)
+
+              # Extract info (read from tar.zst)
+              import subprocess
+              import tempfile
+
+              with tempfile.TemporaryDirectory() as tmpdir:
+                  subprocess.run(["tar", "-I", "zstd", "-xf", filepath, "-C", tmpdir], check=True)
+                  info_path = os.path.join(tmpdir, "info")
+
+                  name = filename[:-4]  # remove .pls
+                  version = "1.0.0"
+
+                  if os.path.exists(info_path):
+                      with open(info_path) as f:
+                          for line in f:
+                              if line.startswith("name = "):
+                                  name = line.split("=", 1)[1].strip()
+                              elif line.startswith("version = "):
+                                  version = line.split("=", 1)[1].strip()
+
+              index["packages"][name] = {
+                  "version": version,
+                  "size": size,
+                  "sha256": sha256.hexdigest(),
+                  "deps": [],
+                  "desc": f"{name} package"
+              }
+
+              print(f"  indexed {name} v{version}")
+
+          with open("index.json", "w") as f:
+              json.dump(index, f, indent=2)
+
+          print(f"Done! {len(index['packages'])} packages indexed")
+          PYTHON
+
+          python3 generate-index.py
+          rm generate-index.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+          git add packages/ index.json
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update packages $(date +%Y-%m-%d)"
+            git push
+          fi
