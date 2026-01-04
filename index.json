@@ -16,5 +16,10 @@
       "deps": [],
       "desc": "pls package"
     }
+  },
+  "bundles": {
+    "aura-core": ["pls", "yplay"],
+    "gaming": ["steam", "discord", "lutris"],
+    "dev-rust": ["rustup", "cargo-watch", "rust-analyzer"]
   }
 }
