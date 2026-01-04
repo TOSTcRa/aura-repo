@@ -6,8 +6,8 @@ if [ $# -lt 2 ]; then
     exit 1
 fi
 
-DEB_FILE="$1"
-OUTPUT_DIR="$2"
+DEB_FILE="$(realpath "$1")"
+OUTPUT_DIR="$(realpath "$2")"
 WORK_DIR=$(mktemp -d)
 
 cleanup() {
