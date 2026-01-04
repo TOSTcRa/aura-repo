@@ -1,41 +1,159 @@
 # Aura Linux packages list
 # Format: package-name (from Debian/Ubuntu repos)
-# Lines starting with # are comments
 
-# === BASIC UTILITIES ===
-git
-curl
-wget
+# === CORE UTILITIES ===
+coreutils
+findutils
+grep
+sed
+gawk
+diffutils
+patch
+file
+which
+less
+more
+man-db
+info
+time
+watch
+parallel
+
+# === SHELLS ===
+bash
+zsh
+fish
+dash
+
+# === EDITORS ===
 vim
 nano
-htop
+neovim
+emacs-nox
+micro
+ed
+
+# === FILE MANAGEMENT ===
 tree
-unzip
-zip
-rsync
-tmux
-screen
-jq
-ripgrep
-fd-find
-bat
 exa
+lsd
+fd-find
+ripgrep
 fzf
-neofetch
+bat
+mc
+ranger
+ncdu
+duf
+dust
+
+# === COMPRESSION ===
+gzip
+bzip2
+xz-utils
+zstd
+zip
+unzip
+p7zip-full
+rar
+unrar
+pigz
+lz4
+tar
 
 # === NETWORKING ===
+curl
+wget
+wget2
+aria2
+httpie
+rsync
 openssh-client
 openssh-server
+scp
+sftp
 nmap
+netcat-openbsd
+socat
+tcpdump
+wireshark-common
+iperf3
+mtr
+traceroute
+whois
+dnsutils
+bind9-host
 net-tools
 iproute2
-dnsutils
-traceroute
+iputils-ping
+ethtool
+bridge-utils
+iftop
+nethogs
+vnstat
+bandwhich
 
-# === DEVELOPMENT ===
+# === SYSTEM MONITORING ===
+htop
+btop
+top
+atop
+iotop
+iftop
+powertop
+glances
+nmon
+sysstat
+procps
+lsof
+strace
+ltrace
+perf-tools-unstable
+
+# === SYSTEM ADMINISTRATION ===
+sudo
+doas
+systemd
+udev
+dbus
+polkit
+cron
+at
+logrotate
+psmisc
+
+# === HARDWARE INFO ===
+lshw
+hwinfo
+dmidecode
+pciutils
+usbutils
+lm-sensors
+smartmontools
+hdparm
+nvme-cli
+inxi
+
+# === DISK TOOLS ===
+fdisk
+gdisk
+parted
+dosfstools
+e2fsprogs
+xfsprogs
+btrfs-progs
+ntfs-3g
+exfatprogs
+mdadm
+lvm2
+cryptsetup
+
+# === DEVELOPMENT - BUILD TOOLS ===
 build-essential
 gcc
 g++
+clang
+llvm
 make
 cmake
 meson
@@ -43,31 +161,152 @@ ninja-build
 pkg-config
 autoconf
 automake
+libtool
+bison
+flex
+nasm
+yasm
+
+# === DEVELOPMENT - DEBUGGERS ===
 gdb
+lldb
 valgrind
 strace
+ltrace
 
-# === SCRIPTING ===
+# === DEVELOPMENT - VERSION CONTROL ===
+git
+git-lfs
+gh
+tig
+gitui
+lazygit
+subversion
+mercurial
+fossil
+
+# === LANGUAGES - PYTHON ===
 python3
 python3-pip
+python3-venv
+python3-dev
+ipython3
+black
+pylint
+mypy
+
+# === LANGUAGES - JAVASCRIPT ===
 nodejs
 npm
 
-# === VERSION CONTROL ===
-git-lfs
-subversion
-mercurial
+# === LANGUAGES - GO ===
+golang
 
-# === COMPRESSION ===
-gzip
-bzip2
-xz-utils
-zstd
-p7zip-full
+# === LANGUAGES - OTHER ===
+lua5.4
+perl
+ruby
+php-cli
+tcl
+guile-3.0
 
-# === SYSTEM ===
-sudo
-systemd
-udev
-dbus
-polkit
+# === DATABASES ===
+sqlite3
+postgresql-client
+mariadb-client
+redis-tools
+
+# === CONTAINERS ===
+docker.io
+podman
+buildah
+skopeo
+
+# === JSON/YAML/DATA ===
+jq
+yq
+xmlstarlet
+csvtool
+miller
+
+# === MULTIMEDIA - CLI ===
+ffmpeg
+imagemagick
+graphicsmagick
+sox
+lame
+flac
+vorbis-tools
+opus-tools
+mediainfo
+exiftool
+youtube-dl
+yt-dlp
+
+# === DOCUMENT TOOLS ===
+pandoc
+asciidoc
+groff
+ghostscript
+poppler-utils
+tesseract-ocr
+
+# === SECURITY ===
+gnupg
+openssl
+pass
+age
+sshpass
+fail2ban
+ufw
+iptables
+nftables
+apparmor
+
+# === TERMINAL MULTIPLEXERS ===
+tmux
+screen
+byobu
+zellij
+
+# === MISC CLI TOOLS ===
+neofetch
+fastfetch
+screenfetch
+cowsay
+figlet
+toilet
+fortune-mod
+sl
+cmatrix
+asciinema
+tmate
+mosh
+
+# === DOWNLOAD MANAGERS ===
+axel
+lftp
+
+# === BACKUP ===
+borgbackup
+restic
+rclone
+duplicity
+
+# === BENCHMARKS ===
+sysbench
+stress
+stress-ng
+fio
+
+# === BOOT/SYSTEM ===
+grub2
+efibootmgr
+os-prober
+
+# === FONTS (CLI tools) ===
+fontconfig
+
+# === LOCALIZATION ===
+locales
+tzdata
