@@ -1,636 +1,13 @@
 {
   "version": 1,
-  "updated": "2026-01-04",
+  "updated": "2026-01-07",
   "packages": {
-    "subversion": {
-      "version": "1.14.3_1build4",
-      "size": 295261,
-      "sha256": "ec274b7bce9e13987a3a5474bd8708ba202b51e2abad4beecd9ce2eadfb5979f",
-      "deps": [],
-      "desc": "subversion package"
-    },
-    "curl": {
-      "version": "8.5.0_2ubuntu10.6",
-      "size": 166187,
-      "sha256": "b414c0d4f2d200369ba9b89c7802ad42306bea4db4ae895cd37f6edb5b192c0f",
-      "deps": [],
-      "desc": "curl package"
-    },
-    "pigz": {
-      "version": "2.8_1",
-      "size": 68654,
-      "sha256": "d19728c2848f475688cbc7265afacb676b3f5432c78f1352d8e1de84ef60ff96",
-      "deps": [],
-      "desc": "pigz package"
-    },
-    "miller": {
-      "version": "6.11.0_1ubuntu0.3",
-      "size": 4168290,
-      "sha256": "8559686e504f182e5496b0fcaf646dc7bef4a22d70686da5228e506c37e80967",
-      "deps": [],
-      "desc": "miller package"
-    },
-    "zsh": {
-      "version": "5.9_6ubuntu2",
-      "size": 471995,
-      "sha256": "a867a8befa426699e7ec816109ac7d8b40efa19cb1ce7492dd4a1a8197a76440",
-      "deps": [],
-      "desc": "zsh package"
-    },
-    "logrotate": {
-      "version": "3.21.0_2build1",
-      "size": 41064,
-      "sha256": "b31c616686ce8a384ab7aff7377eea70b8109a4fca97f0ba9697c5aff3c6f84b",
-      "deps": [],
-      "desc": "logrotate package"
-    },
-    "nvme-cli": {
-      "version": "2.8_1ubuntu0.1",
-      "size": 485300,
-      "sha256": "354422c38932cc58df5f40864478093261a3c7ea3a36d96111d92a0e342745a5",
-      "deps": [],
-      "desc": "nvme-cli package"
-    },
-    "ntfs-3g": {
-      "version": "1_2022.10.3_1.2ubuntu3",
-      "size": 410540,
-      "sha256": "a4d2d68790a0d0d3a9e511c2f8bbf9a07f4f2241a0fe0982509b008af7c208d1",
-      "deps": [],
-      "desc": "ntfs-3g package"
-    },
-    "duf": {
-      "version": "0.8.1_1ubuntu0.24.04.3",
-      "size": 1034147,
-      "sha256": "fcfe54fa4bc1a786911376128bea025905ccb7ae4a91f7d9ffc88a30d83a70eb",
-      "deps": [],
-      "desc": "duf package"
-    },
-    "lvm2": {
-      "version": "2.03.16_3ubuntu3.2",
-      "size": 1047998,
-      "sha256": "38febed752244145278bbaf754bccf28fdfe6d9cb0a0ebb287427805680125b1",
-      "deps": [],
-      "desc": "lvm2 package"
-    },
-    "podman": {
-      "version": "4.9.3",
-      "size": 13826898,
-      "sha256": "6aeae8bec0145ec72925d51c075252f31e4c9a999b71371e872cbc90381a6636",
-      "deps": [],
-      "desc": "podman package"
-    },
-    "mdadm": {
-      "version": "4.3_1ubuntu2.1",
-      "size": 395219,
-      "sha256": "fc24e3a817b6076510f34b8b85c81d0cfdfe357a0cd11f9c9e6ea338a870e423",
-      "deps": [],
-      "desc": "mdadm package"
-    },
-    "openssh-client": {
-      "version": "1_9.6p1_3ubuntu13.14",
-      "size": 823754,
-      "sha256": "d4535f39a6d45fb0c870e1bf7761b3cb320dab38f821345efc47703911cff7af",
-      "deps": [],
-      "desc": "openssh-client package"
-    },
-    "findutils": {
-      "version": "4.9.0_5build1",
-      "size": 118247,
-      "sha256": "e66998b0af8b80d959774f998c56d52df0957fb2c7793616888c498cac768fde",
-      "deps": [],
-      "desc": "findutils package"
-    },
-    "at": {
-      "version": "3.2.5_2.1ubuntu3",
-      "size": 30780,
-      "sha256": "64b48ac25609fb756384f2972b2ba38a3214d54d631b4715c263362e8a321612",
-      "deps": [],
-      "desc": "at package"
-    },
-    "tig": {
-      "version": "2.5.8_1build2",
-      "size": 208435,
-      "sha256": "c4c7686acbb536a3f07698817fd3970d70570d7f2fcee95867a488ff303b390c",
-      "deps": [],
-      "desc": "tig package"
-    },
-    "stress-ng": {
-      "version": "0.17.06_1build1",
-      "size": 1815965,
-      "sha256": "63e01ee32171a83d8ae0032a35172e6f8d0d358459fc33fcd0825855a2c2ae09",
-      "deps": [],
-      "desc": "stress-ng package"
-    },
-    "bridge-utils": {
-      "version": "1.7.1_1ubuntu2",
-      "size": 13320,
-      "sha256": "75a270fbe59464163bc12f722b41f6c01766aa241e208ddac042b4567a22c1e1",
-      "deps": [],
-      "desc": "bridge-utils package"
-    },
-    "iptables": {
-      "version": "1.8.10_3ubuntu2",
-      "size": 130222,
-      "sha256": "572d0113d380f1019a72f0ccad4cff4f32f22a5205ac570480bcb736ee0bb997",
-      "deps": [],
-      "desc": "iptables package"
-    },
-    "emacs-nox": {
-      "version": "1_29.3",
-      "size": 1387421,
-      "sha256": "bb4b791da0fa7c200ca64519e7b6780e07d520aae8d8a1a866e2e15d0eb5b567",
-      "deps": [],
-      "desc": "emacs-nox package"
-    },
-    "unzip": {
-      "version": "6.0_28ubuntu4.1",
-      "size": 119832,
-      "sha256": "88f185c9d0e5be77c4c882916ade57bd2e5bf6e4c364bc25a8ff9a33a5635e6b",
-      "deps": [],
-      "desc": "unzip package"
-    },
-    "usbutils": {
-      "version": "1_017_3build1",
-      "size": 87662,
-      "sha256": "f76a7a41a8f98d818ebf8c4e972b76f37b73c5d53cefc4534745c01c54b8d7dc",
-      "deps": [],
-      "desc": "usbutils package"
-    },
-    "lz4": {
-      "version": "1.9.4_1build1.1",
-      "size": 100826,
-      "sha256": "00b3df4d31f23fba333c9b2d01efa820eec590b06eadc1d3db005e7f911aa8ab",
-      "deps": [],
-      "desc": "lz4 package"
-    },
-    "procps": {
-      "version": "2_4.0.4_4ubuntu3.2",
-      "size": 200061,
-      "sha256": "85a8e797245793cebb417f62230548e6a6b14878e14fc43a9b8ed4ea05c8e871",
-      "deps": [],
-      "desc": "procps package"
-    },
-    "axel": {
-      "version": "2.17.13_1build2",
-      "size": 30827,
-      "sha256": "e6d0f1050a7f981d722c1b7043b6c7461103686ff07587719a841be307790193",
-      "deps": [],
-      "desc": "axel package"
-    },
-    "nasm": {
-      "version": "2.16.01_1build1",
-      "size": 539036,
-      "sha256": "0ede0e2abdd89e13972c6b83c4851346662c9a90d009c2e686618afc6690043a",
-      "deps": [],
-      "desc": "nasm package"
-    },
-    "csvtool": {
-      "version": "2.4_3build1",
-      "size": 577505,
-      "sha256": "56fdff88843d6e6db16b0d4a5cfb9b391269e0f6a208172223b511f2c467c9e1",
-      "deps": [],
-      "desc": "csvtool package"
-    },
-    "groff": {
-      "version": "1.23.0_3build2",
-      "size": 554967,
-      "sha256": "0905cd4d30717cb2736633e3aa5cdd63f976fb9347f5c73b3825b0e9d11e50c0",
-      "deps": [],
-      "desc": "groff package"
-    },
-    "autoconf": {
-      "version": "2.71_3",
-      "size": 42055,
-      "sha256": "6cdf3c478f8a35ecd02a652d061f2a394652a954260ad2ac4010d4f20f490604",
-      "deps": [],
-      "desc": "autoconf package"
-    },
-    "zip": {
-      "version": "3.0_13ubuntu0.2",
-      "size": 154233,
-      "sha256": "b668cdef3ec912414c46a1f449105c8a0eebdb76051b39f988eadc731434f28e",
-      "deps": [],
-      "desc": "zip package"
-    },
-    "parted": {
-      "version": "3.6_4build1",
-      "size": 44961,
-      "sha256": "8aeaff7c53900f77bace0389b469a48071f8ac3b088bd07c9fe0e7839ce4c5cf",
-      "deps": [],
-      "desc": "parted package"
-    },
-    "less": {
-      "version": "590_2ubuntu2.1",
-      "size": 108666,
-      "sha256": "bb2ecb5deb06825e505c91094af578cfaa6a98e016c7f2780e8bc28add53d3dc",
-      "deps": [],
-      "desc": "less package"
-    },
-    "tcpdump": {
-      "version": "4.99.4_3ubuntu4.24.04.1",
-      "size": 513262,
-      "sha256": "746de84c49497c61a2fd6df8488e42b0d40272a14af82d8d39fcab1d437bb32f",
-      "deps": [],
-      "desc": "tcpdump package"
-    },
-    "wget": {
-      "version": "1.21.4_1ubuntu4.1",
-      "size": 234072,
-      "sha256": "3c6fd7cc3c441fbfd9a6ee9116291f9edd8cc2430ae611d425be2468c6b0b55b",
-      "deps": [],
-      "desc": "wget package"
-    },
-    "grep": {
-      "version": "3.11_4build1",
-      "size": 92988,
-      "sha256": "4b362d7362cfa849095abddbfc3ff5d09ff4e9f70a71eccf776065644864258d",
-      "deps": [],
-      "desc": "grep package"
-    },
-    "vim": {
-      "version": "2_9.1.0016_1ubuntu7.9",
-      "size": 2195877,
-      "sha256": "ce3b5c92df096f2c5c8469534bfa6efe3c9b55bed829bc2904b6ade1573e5cdd",
-      "deps": [],
-      "desc": "vim package"
-    },
-    "mercurial": {
-      "version": "6.7.2_1ubuntu2.2",
-      "size": 15102,
-      "sha256": "a91b0a9248fa51a8516230d108f97a94e3278fdffb6c80f12c65a0a8dbfad73a",
-      "deps": [],
-      "desc": "mercurial package"
-    },
-    "ripgrep": {
-      "version": "14.1.0_1",
-      "size": 1830761,
-      "sha256": "716edf2b3b1f136dff69df90856c7ae1d5836d4188473561ab75ca3dfe61f389",
-      "deps": [],
-      "desc": "ripgrep package"
-    },
-    "whois": {
-      "version": "5.5.22",
-      "size": 49184,
-      "sha256": "3df2ddaec8eebd7a06382d95e5b24212cab0a1e257a8bbb4d42d77dbed811164",
-      "deps": [],
-      "desc": "whois package"
-    },
-    "mypy": {
-      "version": "1.9.0_4ubuntu1",
-      "size": 487,
-      "sha256": "813694f0107083acaf233384fe3e81952f345fc61a283310c3fc7be5002132ff",
-      "deps": [],
-      "desc": "mypy package"
-    },
-    "locales": {
-      "version": "2.39_0ubuntu8.6",
-      "size": 4076,
-      "sha256": "1d7b4bae54e4e91dd623c7320c5ebda3bccea341f27e3179b563f946e91ef59e",
-      "deps": [],
-      "desc": "locales package"
-    },
-    "htop": {
-      "version": "3.3.0_4build1",
-      "size": 168642,
-      "sha256": "757a745bf3a1599659778afaaf8b9112d86c432eed505619f1251d62493d906d",
-      "deps": [],
-      "desc": "htop package"
-    },
-    "os-prober": {
-      "version": "1.81ubuntu4",
-      "size": 2325,
-      "sha256": "c553febedb8602fa70cf2be51a7b4e88ef9ef4cbc842f62e33fb73fa6f5b37eb",
-      "deps": [],
-      "desc": "os-prober package"
-    },
-    "byobu": {
-      "version": "6.11_0ubuntu1",
-      "size": 23749,
-      "sha256": "dfa895598a3277b9388a55df6ba26c9ff1b5cc46e482aaec06571ea7efbed40c",
-      "deps": [],
-      "desc": "byobu package"
-    },
-    "patch": {
-      "version": "2.7.6_7build3",
-      "size": 94269,
-      "sha256": "a9cd17f6e816f181ed0f750ccca8c7e92020e17ebc74d38317758a5e609439d5",
-      "deps": [],
-      "desc": "patch package"
-    },
-    "micro": {
-      "version": "2.0.13_1",
-      "size": 4979167,
-      "sha256": "477c2a77fd4c5bf9255307322a66798a362b8fe8b4306e25a35285ba70fcd947",
-      "deps": [],
-      "desc": "micro package"
-    },
-    "fossil": {
-      "version": "1_2.23_1ubuntu0.1",
-      "size": 2455595,
-      "sha256": "77c1ec6f5d3292f920076f972ad31e5d5068457aa171401e5df19a2d04d8a0e2",
-      "deps": [],
-      "desc": "fossil package"
-    },
-    "vnstat": {
-      "version": "2.12_1",
-      "size": 100701,
-      "sha256": "910358bdcac067152e32cb83689c024753b22af0719d06ffd290c5a5a8277d0e",
-      "deps": [],
-      "desc": "vnstat package"
-    },
-    "lsof": {
-      "version": "4.95.0_1build3",
-      "size": 84680,
-      "sha256": "ec9371b06dabddb66b4e027e64733f51e92770cfbd1547c981fcac8c06e514e8",
-      "deps": [],
-      "desc": "lsof package"
-    },
-    "gcc": {
-      "version": "4_13.2.0_7ubuntu1",
-      "size": 556,
-      "sha256": "0a61becaaa0f0df495f26e1ca8f7c4e566e1b636fb7c04299ca4d35b1a7e6817",
-      "deps": [],
-      "desc": "gcc package"
-    },
-    "btrfs-progs": {
-      "version": "6.6.3_1.1build2",
-      "size": 1160737,
-      "sha256": "39c4b972d8357343043bf9a2ebf2a759ea0e7f6d55b80138f451f622da35ba1f",
-      "deps": [],
-      "desc": "btrfs-progs package"
-    },
-    "efibootmgr": {
-      "version": "18_1build2",
-      "size": 25122,
-      "sha256": "e1177bab4f6c1c495c536dfe2fdb34da9d9094a93e2d3ff874166c7c082539a6",
-      "deps": [],
-      "desc": "efibootmgr package"
-    },
-    "vorbis-tools": {
-      "version": "1.4.2_2",
-      "size": 109346,
-      "sha256": "087658dfaee784407c6a3b85b5cbb23ed1ce2ecdfaf494f2fa27822ebef87465",
-      "deps": [],
-      "desc": "vorbis-tools package"
-    },
-    "skopeo": {
-      "version": "1.13.3",
-      "size": 7464342,
-      "sha256": "51ac5cee79b16a684f2fe5f9680063df6b52ec968622d0ec97ec0404cc45b2df",
-      "deps": [],
-      "desc": "skopeo package"
-    },
-    "ufw": {
-      "version": "0.36.2_6",
-      "size": 2156,
-      "sha256": "aef9b819dba3abde8510541ca6f645d0daf3492a5a687652c11837d8b82b8d46",
-      "deps": [],
-      "desc": "ufw package"
-    },
-    "make": {
-      "version": "4.3_4.1build2",
-      "size": 133155,
-      "sha256": "a2f1d8083dd4872313abd79c587f29d612551990f3d9521ff82bfa698e5544c6",
-      "deps": [],
-      "desc": "make package"
-    },
-    "black": {
-      "version": "24.2.0_1ubuntu1",
-      "size": 350,
-      "sha256": "5fd980fd782bb9edf0f48890630f462e13734b083721fb988200e4a6ab471136",
-      "deps": [],
-      "desc": "black package"
-    },
-    "docker.io": {
-      "version": "28.2.2_0ubuntu1~24.04.1",
-      "size": 34644669,
-      "sha256": "25601c017ad258a408af07a9ba33248f955e4e3f0e732c4dd9e15c54e964dcfd",
-      "deps": [],
-      "desc": "docker.io package"
-    },
-    "dmidecode": {
-      "version": "3.5_3ubuntu0.1",
-      "size": 64601,
-      "sha256": "4cfa08098ef47c303bb8913aa8906b029ba59e0205809e28bb760fc4916041ae",
-      "deps": [],
-      "desc": "dmidecode package"
-    },
-    "ipython3": {
-      "version": "8.20.0_1",
-      "size": 346,
-      "sha256": "844556c3e3548b17aba8d424e6281ff00959b73a4986a6ed8177c718bd84f68b",
-      "deps": [],
-      "desc": "ipython3 package"
-    },
-    "sshpass": {
-      "version": "1.09_1",
-      "size": 7170,
-      "sha256": "19609661cb634eb9747f848c82f71d3fcac10235ebc574da5164b08d863bfbf4",
-      "deps": [],
-      "desc": "sshpass package"
-    },
-    "opus-tools": {
-      "version": "0.2_1build3",
-      "size": 56074,
-      "sha256": "301b634a80fb8d8cd8b48cfc29ea323421718ee3c0d0ef5b963225ecca80c022",
-      "deps": [],
-      "desc": "opus-tools package"
-    },
-    "xfsprogs": {
-      "version": "6.6.0_1ubuntu2.1",
-      "size": 989421,
-      "sha256": "91678c7726360b1e59aafa86ed852caeda7516b7261ba08f1b43f99f210b00f3",
-      "deps": [],
-      "desc": "xfsprogs package"
-    },
-    "rclone": {
-      "version": "1.60.1",
-      "size": 18452526,
-      "sha256": "14b3c2bdd21af28934b2a32e88edc46a89e7cf62c0f30cbb0d44092de436823a",
-      "deps": [],
-      "desc": "rclone package"
-    },
-    "systemd": {
-      "version": "255.4_1ubuntu8.12",
-      "size": 1332617,
-      "sha256": "7a902bbfd88ebcbf4abaae7ff041dbeef105616645de2a6dd427dcd10aaac7da",
-      "deps": [],
-      "desc": "systemd package"
-    },
-    "ghostscript": {
-      "version": "10.02.1~dfsg1_0ubuntu7.8",
-      "size": 6318,
-      "sha256": "916fbbb3449fab6e0aa3f79b1a46cfca37486e850ab04616569ea945b1357aaf",
-      "deps": [],
-      "desc": "ghostscript package"
-    },
-    "hdparm": {
-      "version": "9.65",
-      "size": 67965,
-      "sha256": "48311bd85265bc47929be3ca9647f9f7461a1cc7c2adfb0a7192fa914e8f6b97",
-      "deps": [],
-      "desc": "hdparm package"
-    },
     "sqlite3": {
       "version": "3.45.1_1ubuntu2.5",
       "size": 161117,
       "sha256": "f8b82bae4fe68b516279fc4b53840df1dd70ba5b60a453e42f2260d013f71aef",
       "deps": [],
       "desc": "sqlite3 package"
-    },
-    "e2fsprogs": {
-      "version": "1.47.0_2.4~exp1ubuntu4.1",
-      "size": 444269,
-      "sha256": "5ec914086af83e3cd397999f873cd6be84599e50eab4163cd2d9d3c684de9f63",
-      "deps": [],
-      "desc": "e2fsprogs package"
-    },
-    "ethtool": {
-      "version": "1_6.7_1build1",
-      "size": 225138,
-      "sha256": "799f4c922a1c20744f35c59b6e0fba82755ea34584ab34573063cc3b84a6bf36",
-      "deps": [],
-      "desc": "ethtool package"
-    },
-    "wget2": {
-      "version": "2.1.0_2.1build2",
-      "size": 85287,
-      "sha256": "c070306375de0d4d2956ded3a92aa7652ed8289875e240d52946144475433e0a",
-      "deps": [],
-      "desc": "wget2 package"
-    },
-    "mc": {
-      "version": "3_4.8.30_1ubuntu0.1",
-      "size": 557149,
-      "sha256": "b76b4a8d6491bc2f244750e501876e67638eb6862b61151b916a54bd0b166e70",
-      "deps": [],
-      "desc": "mc package"
-    },
-    "dash": {
-      "version": "0.5.12_6ubuntu5",
-      "size": 66899,
-      "sha256": "1189acac5e007676293a257f1f28c68265a02ef2ce17b4dbbbf700ab09e58ea7",
-      "deps": [],
-      "desc": "dash package"
-    },
-    "stress": {
-      "version": "1.0.7_1",
-      "size": 9734,
-      "sha256": "1282c7e55c4f232bdbec7fbb8ae435cbb25558718f45ad9ca60e5253bd562c6d",
-      "deps": [],
-      "desc": "stress package"
-    },
-    "socat": {
-      "version": "1.8.0.0_4build3",
-      "size": 206277,
-      "sha256": "84cbab0023b46db1a513be78f7534963dfa2b26d634537ed51c06a863e7637fe",
-      "deps": [],
-      "desc": "socat package"
-    },
-    "info": {
-      "version": "7.1_3build2",
-      "size": 123524,
-      "sha256": "8b7219b11e1d157b563aed5047b61fdd60e694e8929c9bec6398574b59fe6b59",
-      "deps": [],
-      "desc": "info package"
-    },
-    "glances": {
-      "version": "3.4.0.3",
-      "size": 689,
-      "sha256": "c0c1eea972ac664be4f32d75f0d104a3c0016b464a5a3b89212d79ca813cb85c",
-      "deps": [],
-      "desc": "glances package"
-    },
-    "sysstat": {
-      "version": "12.6.1_2",
-      "size": 257343,
-      "sha256": "6a98f1c5ea68bd4e27fb2fbcb1840739112b2713ba58e979662b36978930e470",
-      "deps": [],
-      "desc": "sysstat package"
-    },
-    "graphicsmagick": {
-      "version": "1.4",
-      "size": 1851,
-      "sha256": "4b081d9f2d4dbeac74f0e807cb89d7485289dbe36d6557afea44f82544d4ebc5",
-      "deps": [],
-      "desc": "graphicsmagick package"
-    },
-    "diffutils": {
-      "version": "1_3.10_1build1",
-      "size": 109280,
-      "sha256": "954201745f7f4b0eba5b2875d20120e955928622ccdd9e14b163603bbca62b6c",
-      "deps": [],
-      "desc": "diffutils package"
-    },
-    "duplicity": {
-      "version": "2.1.4_3ubuntu2",
-      "size": 1785,
-      "sha256": "78138204841c1e044864d687189860fd7e97cae284274634e7d82caafc25fe0e",
-      "deps": [],
-      "desc": "duplicity package"
-    },
-    "asciinema": {
-      "version": "2.4.0_1",
-      "size": 343,
-      "sha256": "1358735e21c536245f521dc2d8bb5a0d40d376512f1bbf86bd5f1f0949a8086e",
-      "deps": [],
-      "desc": "asciinema package"
-    },
-    "parallel": {
-      "version": "20231122",
-      "size": 163644,
-      "sha256": "ab7ff8dce1f90025a957fd5a8cf648ac2025701a00bebbaafbc294d98f00f5f9",
-      "deps": [],
-      "desc": "parallel package"
-    },
-    "gdb": {
-      "version": "15.0.50.20240403_0ubuntu1",
-      "size": 4447513,
-      "sha256": "b19d6b1696037a7563f6be2d535a2ea061e6fc736e3b8fc8aac6f1f7ae852399",
-      "deps": [],
-      "desc": "gdb package"
-    },
-    "rsync": {
-      "version": "3.2.7_1ubuntu1.2",
-      "size": 282428,
-      "sha256": "86948ddc7fe5d712280d299a76f62a82552b99bd175a21ffaf5b3352d298ad64",
-      "deps": [],
-      "desc": "rsync package"
-    },
-    "iotop": {
-      "version": "0.6_42_ga14256a_0.2build1",
-      "size": 522,
-      "sha256": "babeec7dd2bf603cf41b98c8211e9da5c14aa4fa41ee93cab7375d50c8eac403",
-      "deps": [],
-      "desc": "iotop package"
-    },
-    "udev": {
-      "version": "255.4_1ubuntu8.12",
-      "size": 659768,
-      "sha256": "e6797ea05813a8208e54e1bd4876ea36fd7b7e2a427687b3f3a0340eb8c54de6",
-      "deps": [],
-      "desc": "udev package"
-    },
-    "strace": {
-      "version": "6.8_0ubuntu2",
-      "size": 625759,
-      "sha256": "6043fe1936f7acdd0f4d73debb110b2eacdeb9ad57833638690897fb9c02f99f",
-      "deps": [],
-      "desc": "strace package"
-    },
-    "mtr": {
-      "version": "0.95_1.1ubuntu0.1",
-      "size": 60439,
-      "sha256": "5f6dee8aa3aade8ff7f44947e73cef510a33b1bc9c75216a6797071c8efac6c5",
-      "deps": [],
-      "desc": "mtr package"
-    },
-    "nmap": {
-      "version": "7.94",
-      "size": 969273,
-      "sha256": "40f52a05931ee41e2a726e8cd025657b5c58e17e8a74c89e8623cf3d1dad40b1",
-      "deps": [],
-      "desc": "nmap package"
     },
     "net-tools": {
       "version": "2.10_0.1ubuntu4.4",
@@ -639,586 +16,12 @@
       "deps": [],
       "desc": "net-tools package"
     },
-    "tar": {
-      "version": "1.35",
-      "size": 225416,
-      "sha256": "04eba64f15c291bde1618ac0dc5c80783e4a5d9829941cdccebfc1b02ceec0d2",
-      "deps": [],
-      "desc": "tar package"
-    },
-    "gawk": {
-      "version": "1_5.2.1_2build3",
-      "size": 389622,
-      "sha256": "f84b9aa93ba62f565447be90337fe735abe7e6891821030d9b7def50990b3de8",
-      "deps": [],
-      "desc": "gawk package"
-    },
-    "neovim": {
-      "version": "0.9.5_6ubuntu2",
-      "size": 2367932,
-      "sha256": "0bee1c882af2758682ae1f47754733b450fd413676638c396db0620ea89d23b3",
-      "deps": [],
-      "desc": "neovim package"
-    },
-    "bash": {
-      "version": "5.2.21_2ubuntu4",
-      "size": 728016,
-      "sha256": "97c7accc5b79d096b3aadf8025940d37e87de554cce54fc414d1899fa9a2541e",
-      "deps": [],
-      "desc": "bash package"
-    },
-    "netcat-openbsd": {
-      "version": "1.226_1ubuntu2",
-      "size": 17450,
-      "sha256": "b2a9f0c8c0fa7a715b64a0020340247be50810b085043cb06be169e725272ef3",
-      "deps": [],
-      "desc": "netcat-openbsd package"
-    },
-    "redis-tools": {
-      "version": "5_7.0.15_1ubuntu0.24.04.2",
-      "size": 2475911,
-      "sha256": "52835c90ce64ad646826f12e39437b80f9af46f8ae1c672e8a9ce0791a65d8ee",
-      "deps": [],
-      "desc": "redis-tools package"
-    },
-    "sysbench": {
-      "version": "1.0.20",
-      "size": 103562,
-      "sha256": "cd7414569ee42e30679257317db076f13426073b1f1a5ba2371f4447ee5b7bc7",
-      "deps": [],
-      "desc": "sysbench package"
-    },
-    "xz-utils": {
-      "version": "5.6.1",
-      "size": 48976,
-      "sha256": "5a01540f685e896cd48ebd0fbd79d6ed201e6c1dccb552dcba492aef0772ea22",
-      "deps": [],
-      "desc": "xz-utils package"
-    },
-    "time": {
-      "version": "1.9_0.2build1",
-      "size": 8187,
-      "sha256": "a9f68bbbd19a3de9e75e8cfe896c343261f6ab3ab2aab56ac5b0ae759c670bf0",
-      "deps": [],
-      "desc": "time package"
-    },
-    "file": {
-      "version": "1_5.45_3build1",
-      "size": 10070,
-      "sha256": "64921c722bd770d8d2b16e9b0dbfe96f0691625c7b9009d3bec7f686ccefbd64",
-      "deps": [],
-      "desc": "file package"
-    },
-    "nmon": {
-      "version": "16p",
-      "size": 78394,
-      "sha256": "c45c05b9b30608b0b3d1495816e449fce482e29ee7c4fc5d322737d902dc0310",
-      "deps": [],
-      "desc": "nmon package"
-    },
-    "bind9-host": {
-      "version": "1_9.18.39_0ubuntu0.24.04.2",
-      "size": 51449,
-      "sha256": "e36cbc105c985a64f2555d6073cf4f113db1d3a858f82453f8a99ebf5dc85b63",
-      "deps": [],
-      "desc": "bind9-host package"
-    },
-    "openssl": {
-      "version": "3.0.13_0ubuntu3.6",
-      "size": 383188,
-      "sha256": "ccf94902b81c9fb472817d8abd3344a0547d60e9617b879ef81b62e21a6e3a7d",
-      "deps": [],
-      "desc": "openssl package"
-    },
-    "traceroute": {
-      "version": "1_2.1.5_1",
-      "size": 38671,
-      "sha256": "c52e3c34c3144db2fea1b4ec7175a0801b39942c9b952cb23bc6c008aa4f858b",
-      "deps": [],
-      "desc": "traceroute package"
-    },
-    "gzip": {
-      "version": "1.12_1ubuntu3.1",
-      "size": 60450,
-      "sha256": "b2ed5c0ac8a638fbdb3043ee6f989022f940feb91836cc7348f901ec9e17e934",
-      "deps": [],
-      "desc": "gzip package"
-    },
-    "nftables": {
-      "version": "1.0.9_1build1",
-      "size": 7485,
-      "sha256": "b0a4cb8cf2745b57e6e4eb1a314de29098357862d8bdc5e489b6b88afb332917",
-      "deps": [],
-      "desc": "nftables package"
-    },
-    "lm-sensors": {
-      "version": "1_3.6.0_9build1",
-      "size": 69711,
-      "sha256": "ad4984b066fb2995e8faa4747b78fdfadda9a1f5968622266b4f275930f2fd6e",
-      "deps": [],
-      "desc": "lm-sensors package"
-    },
-    "toilet": {
-      "version": "0.3_1.4build1",
-      "size": 8263,
-      "sha256": "7c0f323096309e3c05160be393cb191546df450b43c7316edf783a0fcd346d35",
-      "deps": [],
-      "desc": "toilet package"
-    },
-    "yplay": {
-      "version": "0.1.0",
-      "size": 701425,
-      "sha256": "ad85e20bd5484d14d72c1be05c9e4b8042e65a700209ced39a4c29b46b48f07a",
-      "deps": [],
-      "desc": "yplay package"
-    },
-    "openssh-server": {
-      "version": "1_9.6p1_3ubuntu13.14",
-      "size": 422330,
-      "sha256": "6df441d14a2266700af22b6a6a0f1c6b1a09e965c80b2d6579a7777fdef4b081",
-      "deps": [],
-      "desc": "openssh-server package"
-    },
-    "inxi": {
-      "version": "3.3.34_1_1",
-      "size": 375941,
-      "sha256": "de37d20c8bdbf8d930e1cbb2ebc86711740b2755b31577a63b4064818f227751",
-      "deps": [],
-      "desc": "inxi package"
-    },
-    "perl": {
-      "version": "5.38.2_3.2ubuntu0.2",
-      "size": 142492,
-      "sha256": "7ec87da6f83f16bc4294b4db96d36a25cb9c586673395d1ed8647a97fc746b40",
-      "deps": [],
-      "desc": "perl package"
-    },
-    "yasm": {
-      "version": "1.3.0_4",
-      "size": 484684,
-      "sha256": "e393da143594c4b675465921abcbc345011d26ed450f2e83dadd124659188d4c",
-      "deps": [],
-      "desc": "yasm package"
-    },
-    "jq": {
-      "version": "1.7.1_3ubuntu0.24.04.1",
-      "size": 11547,
-      "sha256": "4527ae59f74893a640bcd833f7e6f9301079c4c60714c991e85f9d12790bd4e7",
-      "deps": [],
-      "desc": "jq package"
-    },
-    "nethogs": {
-      "version": "0.8.7_2build2",
-      "size": 31453,
-      "sha256": "b9eb0704612f365b11770df1abc1a025c750e5675f3202c21783120a2aef7e22",
-      "deps": [],
-      "desc": "nethogs package"
-    },
-    "flac": {
-      "version": "1.4.3",
-      "size": 162316,
-      "sha256": "25b73525ec1fdffb65727ad953e11ccc5041f3d326b73743d981c9e9fde5d038",
-      "deps": [],
-      "desc": "flac package"
-    },
-    "iputils-ping": {
-      "version": "3_20240117_1ubuntu0.1",
-      "size": 37100,
-      "sha256": "b0b6b5be06f6bcde3a5e023dea276e03bc86f5dfa2ebae8b1082d570fd371199",
-      "deps": [],
-      "desc": "iputils-ping package"
-    },
-    "atop": {
-      "version": "2.10.0_2ubuntu2",
-      "size": 181959,
-      "sha256": "f8751391f4c5acc9a182d71152b9f23cdbd79d09e453ee82d17ed9fcd3f83662",
-      "deps": [],
-      "desc": "atop package"
-    },
-    "bat": {
-      "version": "0.24.0_1build1",
-      "size": 2631044,
-      "sha256": "bbe14ea7648ec22de919b3ba0beaa2664d5c8080f9373554c98699725b9837a7",
-      "deps": [],
-      "desc": "bat package"
-    },
-    "fortune-mod": {
-      "version": "1_1.99.1_7.3build1",
-      "size": 7173,
-      "sha256": "5a0306789e5db35f0ce8e29b45b6d2791c06c050d5c5f8c928df58bb70c54b00",
-      "deps": [],
-      "desc": "fortune-mod package"
-    },
-    "zstd": {
-      "version": "1.5.5",
-      "size": 721742,
-      "sha256": "2bf84c6b5636418aebc02ebdba1390ae0bce58264b4f1f88621e94096d32dcd3",
-      "deps": [],
-      "desc": "zstd package"
-    },
-    "yq": {
-      "version": "3.1.0_3",
-      "size": 736,
-      "sha256": "742165b666c5f71b931f83e3ac47197825f69d27148c2756301f938dc018ab7f",
-      "deps": [],
-      "desc": "yq package"
-    },
-    "wireshark-common": {
-      "version": "4.2.2_1.1build3",
-      "size": 338049,
-      "sha256": "5e237a563b51188da7b592c1b371157661ca1c05dba98a9b95efc1ad81ad9d25",
-      "deps": [],
-      "desc": "wireshark-common package"
-    },
-    "sox": {
-      "version": "14.4.2",
-      "size": 34771,
-      "sha256": "740abf2c9360ffe13954e2537fcedb50c8021ff6c07bf41ea4c2f9459f0ddc93",
-      "deps": [],
-      "desc": "sox package"
-    },
-    "btop": {
-      "version": "1.3.0_1",
-      "size": 633714,
-      "sha256": "c6c95ec7379928b0d00d0cd6d7199aa1989500065fc4de17a5d4c0e245b14fb0",
-      "deps": [],
-      "desc": "btop package"
-    },
-    "sudo": {
-      "version": "1.9.15p5_3ubuntu5.24.04.1",
-      "size": 523941,
-      "sha256": "648ec07df19958b49d92beb72beb0d7fabcb1f53f0dfaebc5f3ab053ad9fd470",
-      "deps": [],
-      "desc": "sudo package"
-    },
-    "cmake": {
-      "version": "3.28.3_1build7",
-      "size": 14372684,
-      "sha256": "abc52ec02f4c998328d79a95c5983f9cc63221f3f9e9cc5268dae1dd01e33e54",
-      "deps": [],
-      "desc": "cmake package"
-    },
-    "bison": {
-      "version": "2_3.8.2",
-      "size": 256182,
-      "sha256": "8eaa508a09e405d7ebb5ef64e5cec29c355b20784fe60d6455708a2b45b96da3",
-      "deps": [],
-      "desc": "bison package"
-    },
-    "poppler-utils": {
-      "version": "24.02.0_1ubuntu9.8",
-      "size": 215374,
-      "sha256": "1c7e019372a4419e9ecaa6d21c189ae75239543ea19f14b8d37197687505103e",
-      "deps": [],
-      "desc": "poppler-utils package"
-    },
-    "automake": {
-      "version": "1_1.16.5_1.3ubuntu1",
-      "size": 88880,
-      "sha256": "4496597d30c2c1dc6ed27e88021a2a7d3165582fdd61052e351e49fce0b6b48a",
-      "deps": [],
-      "desc": "automake package"
-    },
-    "sed": {
-      "version": "4.9_2build1",
-      "size": 58399,
-      "sha256": "9784bfa7e05f2db8a43d9a05ae2ee2afce48dd0b1067b27e447a3ba4a4527edb",
-      "deps": [],
-      "desc": "sed package"
-    },
-    "ncdu": {
-      "version": "1.19_0.1",
-      "size": 43971,
-      "sha256": "d2d28518b332952eeafb21888c86530836c02ffd0bfdbc978902f57b4fc5e3c4",
-      "deps": [],
-      "desc": "ncdu package"
-    },
-    "pls": {
-      "version": "0.2.2",
-      "size": 2066902,
-      "sha256": "01d306b2b3539a7ab84a01f62c518bd6666b9d4854caab0fbd2958fa6863ba70",
-      "deps": [],
-      "desc": "pls package"
-    },
-    "unrar": {
-      "version": "1_7.0.7_1build1",
-      "size": 194868,
-      "sha256": "7aa7a72cd88dc1391a861d74779c6b6821c53d758b413dbd7c7736f21b6ed2e7",
-      "deps": [],
-      "desc": "unrar package"
-    },
-    "xmlstarlet": {
-      "version": "1.6.1_4",
-      "size": 38046,
-      "sha256": "327a61a67ebd901586dfb71f79a3d9755ed5601419436425070f96e19a771f3f",
-      "deps": [],
-      "desc": "xmlstarlet package"
-    },
-    "libtool": {
-      "version": "2.4.7_7build1",
-      "size": 38156,
-      "sha256": "d8997c0316dc8329d95116ec6868350bda0c969a57920453ca188341d4a21c43",
-      "deps": [],
-      "desc": "libtool package"
-    },
-    "aria2": {
-      "version": "1.37.0",
-      "size": 3366,
-      "sha256": "95cf5ea321f792c774fd044c008255ff4db03bcf32b1b031fcf2a1942aae86d3",
-      "deps": [],
-      "desc": "aria2 package"
-    },
-    "bzip2": {
-      "version": "1.0.8_5.1build0.1",
-      "size": 24771,
-      "sha256": "aec9de516775541709c8c443e94b465149239489f7f1be568e13712c4c4c3470",
-      "deps": [],
-      "desc": "bzip2 package"
-    },
-    "valgrind": {
-      "version": "1_3.22.0_0ubuntu3",
-      "size": 99178,
-      "sha256": "dfb1c25235dde0e63ff38206bff06948fc6e5219db16c01558bd799f9e3c6261",
-      "deps": [],
-      "desc": "valgrind package"
-    },
-    "tesseract-ocr": {
-      "version": "5.3.4_1build5",
-      "size": 340980,
-      "sha256": "c493b738fe85a71058a50f48d444d84fcec09ec6db385bde5f6b104b77c0c478",
-      "deps": [],
-      "desc": "tesseract-ocr package"
-    },
-    "mariadb-client": {
-      "version": "1_10.11.13_0ubuntu0.24.04.1",
-      "size": 12354063,
-      "sha256": "e55afab317c4236327f3c14ccfcecf710b661c2dc64e8006990f8e7b71eba1ac",
-      "deps": [],
-      "desc": "mariadb-client package"
-    },
-    "ranger": {
-      "version": "1.9.3_5ubuntu0.24.04.1",
-      "size": 7133,
-      "sha256": "5465e25c03e4c85d51665f3a104ab501c33f39757717c72e06087b74feb1b52c",
-      "deps": [],
-      "desc": "ranger package"
-    },
-    "tmate": {
-      "version": "2.4.0_2build3",
-      "size": 307464,
-      "sha256": "484ad09a6c6f4219a0a3b809444778ead3ed7af087e245b6f7274f229a859f01",
-      "deps": [],
-      "desc": "tmate package"
-    },
-    "smartmontools": {
-      "version": "7.4_2build1",
-      "size": 528268,
-      "sha256": "637701d06b779e4b6423d23ec5d5cda2bc7fe1d522a93539f431f33f64b233d3",
-      "deps": [],
-      "desc": "smartmontools package"
-    },
-    "apparmor": {
-      "version": "4.0.1really4.0.1_0ubuntu0.24.04.5",
-      "size": 622902,
-      "sha256": "ed3722583dd56fa34239c2b35806e9851710565177d949cc962ef40907b3737c",
-      "deps": [],
-      "desc": "apparmor package"
-    },
-    "tmux": {
-      "version": "3.4_1ubuntu0.1",
-      "size": 487896,
-      "sha256": "3c1e7064218d9af578979a4994c0c3a25b2f00b09031a73345e7fc8713f704f8",
-      "deps": [],
-      "desc": "tmux package"
-    },
-    "restic": {
-      "version": "0.16.4_2ubuntu0.24.04.3",
-      "size": 7041780,
-      "sha256": "dd8ae0d97093a4d08fa3ba97130456bbb32eedd9a6fbce063447db42821203a0",
-      "deps": [],
-      "desc": "restic package"
-    },
-    "ed": {
-      "version": "1.20.1_1",
-      "size": 28627,
-      "sha256": "5fd153903473e9f6fefeab586b05495c98e141924a599cc16f43d338211cf678",
-      "deps": [],
-      "desc": "ed package"
-    },
-    "screenfetch": {
-      "version": "3.9.1",
-      "size": 60285,
-      "sha256": "35b8077b92f3e8d94fe7522bad18dc1859e69ebc6354692fdcdabb0269b71ab5",
-      "deps": [],
-      "desc": "screenfetch package"
-    },
-    "pandoc": {
-      "version": "3.1.3",
-      "size": 32836357,
-      "sha256": "559abce7a60f6c1f2249050290beb49fb3a0c13f9f2335dac02586c8d32e7fb9",
-      "deps": [],
-      "desc": "pandoc package"
-    },
-    "cron": {
-      "version": "3.0pl1_184ubuntu2",
-      "size": 40001,
-      "sha256": "da5c47f308b857895d886fd0da8c990e1666c75c1a0dcc5b5115a8a3c313aacb",
-      "deps": [],
-      "desc": "cron package"
-    },
-    "flex": {
-      "version": "2.6.4_8.2build1",
-      "size": 143293,
-      "sha256": "1296b8a07ada25a5351afc03672834d7311962bcfefea66f4981eb2e68f2d263",
-      "deps": [],
-      "desc": "flex package"
-    },
-    "tree": {
-      "version": "2.1.1_2ubuntu3.24.04.2",
-      "size": 38316,
-      "sha256": "ad7f214302e215e3599c5499dca020811220797115d756f3c0b6b89761aa77fd",
-      "deps": [],
-      "desc": "tree package"
-    },
-    "pass": {
-      "version": "1.7.4_6",
-      "size": 8408,
-      "sha256": "b2cf6fea6369284b2f3f42172282678ad12454640dd5e8d9b69e75639f985c00",
-      "deps": [],
-      "desc": "pass package"
-    },
-    "python3-pip": {
-      "version": "24.0",
-      "size": 373,
-      "sha256": "9bb802c6e49751a38211783f5ef620c825461520a15db5914d5cbbb1cda78b60",
-      "deps": [],
-      "desc": "python3-pip package"
-    },
-    "lftp": {
-      "version": "4.9.2_2ubuntu1.1",
-      "size": 778349,
-      "sha256": "fb38f801c5acef2cd64f6165a710c07cca70012568abc40f9f4cf0714254a9cd",
-      "deps": [],
-      "desc": "lftp package"
-    },
-    "screen": {
-      "version": "4.9.1_1build1",
-      "size": 265387,
-      "sha256": "579463614f580bc256800f3c148fdf6149ce74e7c549579ffe508e7b1a894145",
-      "deps": [],
-      "desc": "screen package"
-    },
-    "exfatprogs": {
-      "version": "1.2.2_1build1",
-      "size": 67364,
-      "sha256": "5145f32d9747e5d42567083c46fe6c64ec29c72b2ec81812c4183dabac838087",
-      "deps": [],
-      "desc": "exfatprogs package"
-    },
-    "fdisk": {
-      "version": "2.39.3_9ubuntu6.4",
-      "size": 108208,
-      "sha256": "92a83ed417321d778e91eaa6e231c5474a63f70b210eb36c1bd281bc79e05193",
-      "deps": [],
-      "desc": "fdisk package"
-    },
-    "coreutils": {
-      "version": "9.4_3ubuntu6.1",
-      "size": 1205891,
-      "sha256": "d9c6c085ae1e9926ad688a4649f324a1816ca43e04eadb5a78124aa40ed1db13",
-      "deps": [],
-      "desc": "coreutils package"
-    },
-    "cmatrix": {
-      "version": "2.0_6",
-      "size": 8306,
-      "sha256": "941d235f7bea32cc461b469b2c75848d47c5a80ac9cc110ef70a8a88a5112a47",
-      "deps": [],
-      "desc": "cmatrix package"
-    },
-    "iproute2": {
-      "version": "6.1.0_1ubuntu6.2",
-      "size": 920531,
-      "sha256": "b82ef7d55773f83ac95eae190f8929a5d4081da0a7952169080b2e1ca4dbc2b7",
-      "deps": [],
-      "desc": "iproute2 package"
-    },
-    "figlet": {
-      "version": "2.2.5_3",
-      "size": 32478,
-      "sha256": "eb976b0d100fcef8a3fe469fec6f4cc9c6ff8beb582f16ad67cc2c48d40fe805",
-      "deps": [],
-      "desc": "figlet package"
-    },
-    "dosfstools": {
-      "version": "4.2_1.1build1",
-      "size": 70082,
-      "sha256": "084843d80cde57b6539d3d8d2bed9a942971b10ba7018bccfa4a1a5346bb3f46",
-      "deps": [],
-      "desc": "dosfstools package"
-    },
-    "fish": {
-      "version": "3.7.0_1",
-      "size": 1298951,
-      "sha256": "8c7f30198abe935b96e5ca6f3dad2cfe20f7b94a95f04ce107d26cc5e3d20ae9",
-      "deps": [],
-      "desc": "fish package"
-    },
-    "iftop": {
-      "version": "1.0~pre4_9build2",
-      "size": 28068,
-      "sha256": "ddd7ce978d7d997737a253f45574bddd1e458e369360afce52ae8d0b11248ed7",
-      "deps": [],
-      "desc": "iftop package"
-    },
-    "mediainfo": {
-      "version": "24.01.1_1build2",
-      "size": 16901,
-      "sha256": "de1decfe4902635428cfca7545869f1f6557a47a335e0a1e4bb1545b3d671d28",
-      "deps": [],
-      "desc": "mediainfo package"
-    },
-    "httpie": {
-      "version": "3.2.2_1",
-      "size": 733,
-      "sha256": "429f3ee369d1412fe4a73e6376324beb9410522c4d8f3d2315c21d9ad129772c",
-      "deps": [],
-      "desc": "httpie package"
-    },
-    "age": {
-      "version": "1.1.1_1ubuntu0.24.04.3",
-      "size": 2555904,
-      "sha256": "748ce3aa7bac7ed63a3e1516f36b7670a636b00f19df73ce56f7ecf009d9743e",
-      "deps": [],
-      "desc": "age package"
-    },
-    "lame": {
-      "version": "3.100_6build1",
-      "size": 43193,
-      "sha256": "081909be1f937292cf8815fb025a57ad7b7927d884ac0813bc54c7a3e41a99da",
-      "deps": [],
-      "desc": "lame package"
-    },
-    "lshw": {
-      "version": "02.19.git.2021.06.19.996aaad9c7_2build3",
-      "size": 383447,
-      "sha256": "1a2e09ff425af36d0eaf7ba0904c29600f1a3c99ccc00b66ebb51d1cb5fcb00a",
-      "deps": [],
-      "desc": "lshw package"
-    },
-    "fail2ban": {
-      "version": "1.0.2_3ubuntu0.1",
-      "size": 1831,
-      "sha256": "c0bd93c756f9de5a3d6f429f4cb94feb60cd2f6f8264d4814623cd7755e7f883",
-      "deps": [],
-      "desc": "fail2ban package"
-    },
-    "hwinfo": {
-      "version": "21.82_1.1build1",
-      "size": 15987,
-      "sha256": "8bc6e5b141163aeff7ea261ec04ca4c8734bcdb8449cb7afa191245323aaa1b0",
-      "deps": [],
-      "desc": "hwinfo package"
+    "pylint": {
+      "version": "3.0.3_2",
+      "size": 444,
+      "sha256": "6400cbfb29789f022235d22c5f3574e2d6a69a1503bac7f60f830179894028b3",
+      "deps": [],
+      "desc": "pylint package"
     },
     "buildah": {
       "version": "1.33.7",
@@ -1227,152 +30,26 @@
       "deps": [],
       "desc": "buildah package"
     },
-    "perf-tools-unstable": {
-      "version": "1.0.1~20200130",
-      "size": 28927,
-      "sha256": "c0a8780f77ac7ce0131c7f41a6ee0f06900ddbca5ab680a5d500eb1459a3b7f5",
+    "poppler-utils": {
+      "version": "24.02.0_1ubuntu9.8",
+      "size": 215374,
+      "sha256": "1c7e019372a4419e9ecaa6d21c189ae75239543ea19f14b8d37197687505103e",
       "deps": [],
-      "desc": "perf-tools-unstable package"
+      "desc": "poppler-utils package"
     },
-    "nano": {
-      "version": "7.2_2ubuntu0.1",
-      "size": 146804,
-      "sha256": "5ad420b051fc9dbfe62212999033da7804d86dbad3886f7988ff312bbafd0d01",
+    "libtool": {
+      "version": "2.4.7_7build1",
+      "size": 38156,
+      "sha256": "d8997c0316dc8329d95116ec6868350bda0c969a57920453ca188341d4a21c43",
       "deps": [],
-      "desc": "nano package"
+      "desc": "libtool package"
     },
-    "powertop": {
-      "version": "2.15_3build1",
-      "size": 202386,
-      "sha256": "f1f382cf803ba08d050e8f01b8b7bd1519fd0d6e171a11a49f8ce0e67e6a3b72",
+    "bind9-host": {
+      "version": "1_9.18.39_0ubuntu0.24.04.2",
+      "size": 51449,
+      "sha256": "e36cbc105c985a64f2555d6073cf4f113db1d3a858f82453f8a99ebf5dc85b63",
       "deps": [],
-      "desc": "powertop package"
-    },
-    "lua5.4": {
-      "version": "5.4.6_3build2",
-      "size": 176065,
-      "sha256": "a1064cbcc89584aaec61846b285e1de9eaed54c2605acd08fe4be1a4f613a42f",
-      "deps": [],
-      "desc": "lua5.4 package"
-    },
-    "ltrace": {
-      "version": "0.7.3_6.4ubuntu3",
-      "size": 132733,
-      "sha256": "22c27a9c2aef4b276e150908f55b19169a7af29466f2665583fada36005371bc",
-      "deps": [],
-      "desc": "ltrace package"
-    },
-    "cryptsetup": {
-      "version": "2_2.7.0_1ubuntu4.2",
-      "size": 2596,
-      "sha256": "9fac24b9ef9c605e746bc23ba17a6e54f78a262220d530a69c091fa351447d5d",
-      "deps": [],
-      "desc": "cryptsetup package"
-    },
-    "neofetch": {
-      "version": "7.1.0_4",
-      "size": 91583,
-      "sha256": "9a1f08504b85a5acc10eae2f6b12f5dfcf6205f546470942810409ba12923657",
-      "deps": [],
-      "desc": "neofetch package"
-    },
-    "ffmpeg": {
-      "version": "7_6.1.1_3ubuntu5",
-      "size": 254110,
-      "sha256": "896dda7ab8854065f1c05ff45d5e653537bbacf8fed40ab99f644cee3088d72a",
-      "deps": [],
-      "desc": "ffmpeg package"
-    },
-    "gdisk": {
-      "version": "1.0.10_1build1",
-      "size": 195026,
-      "sha256": "366796a893919cc94b1e65c0af5ffc50c113ba676923d861c9445e83e0562373",
-      "deps": [],
-      "desc": "gdisk package"
-    },
-    "rar": {
-      "version": "2_7.00_1build1",
-      "size": 378788,
-      "sha256": "3a6268853ad214c74e7fba8c3313e69b88c5a3835ca794eabcd167e5387d329a",
-      "deps": [],
-      "desc": "rar package"
-    },
-    "yt-dlp": {
-      "version": "2024.04.09_1",
-      "size": 346,
-      "sha256": "c2cc508ab123100df58cbdd494f55847c840caf34c3797b2a08db43bbc42afae",
-      "deps": [],
-      "desc": "yt-dlp package"
-    },
-    "fontconfig": {
-      "version": "2.15.0_1.1ubuntu2",
-      "size": 20753,
-      "sha256": "4d18a219a1fa866154f3780cd371c52ca46032059e7d455907ab9ef4227ff8ac",
-      "deps": [],
-      "desc": "fontconfig package"
-    },
-    "mosh": {
-      "version": "1.4.0_1ubuntu3",
-      "size": 217009,
-      "sha256": "52ebc52ffc0ed1add3ac844f1455845fbf86574b341265745beb5a1fefd7861a",
-      "deps": [],
-      "desc": "mosh package"
-    },
-    "ninja-build": {
-      "version": "1.11.1_2",
-      "size": 120498,
-      "sha256": "65088990ba8cef21a03fbf9073a16c5babcdad8559863368d537a9f87f850d1f",
-      "deps": [],
-      "desc": "ninja-build package"
-    },
-    "man-db": {
-      "version": "2.12.0_4build2",
-      "size": 157058,
-      "sha256": "064509ffbe06a47bca28a8cced0cf9c85cade465a259ccfd096ac1e629937869",
-      "deps": [],
-      "desc": "man-db package"
-    },
-    "nodejs": {
-      "version": "18.19.1",
-      "size": 2080,
-      "sha256": "df4d3d820ed1bbe3b4fcfd0503284259330c23186814226e040ec70d0903abe4",
-      "deps": [],
-      "desc": "nodejs package"
-    },
-    "borgbackup": {
-      "version": "1.2.8_1",
-      "size": 715,
-      "sha256": "bafe8f237fc8dbab9dfb3879e7c8d416fbfb6c99fe6103a7bdd17834600a1086",
-      "deps": [],
-      "desc": "borgbackup package"
-    },
-    "pylint": {
-      "version": "3.0.3_2",
-      "size": 444,
-      "sha256": "6400cbfb29789f022235d22c5f3574e2d6a69a1503bac7f60f830179894028b3",
-      "deps": [],
-      "desc": "pylint package"
-    },
-    "fzf": {
-      "version": "0.44.1_1ubuntu0.3",
-      "size": 1503031,
-      "sha256": "726e5302c4f3d42bd51cf7d6373af1f83d8a4624029672e3ab5087d0082ff2bd",
-      "deps": [],
-      "desc": "fzf package"
-    },
-    "fio": {
-      "version": "3.36_1ubuntu0.1",
-      "size": 488495,
-      "sha256": "c01b075474cd9042b9b537c8d642eb9d1c788251661461e880bbae7ef70953a3",
-      "deps": [],
-      "desc": "fio package"
-    },
-    "iperf3": {
-      "version": "3.16_1build2",
-      "size": 3194,
-      "sha256": "a43cc77436bc5c6e7b5b62955b4fd8e90951214cdaff086075570e6964f16474",
-      "deps": [],
-      "desc": "iperf3 package"
+      "desc": "bind9-host package"
     },
     "lsd": {
       "version": "1.0.0_2",
@@ -1381,12 +58,390 @@
       "deps": [],
       "desc": "lsd package"
     },
+    "neovim": {
+      "version": "0.9.5_6ubuntu2",
+      "size": 2367932,
+      "sha256": "0bee1c882af2758682ae1f47754733b450fd413676638c396db0620ea89d23b3",
+      "deps": [],
+      "desc": "neovim package"
+    },
+    "efibootmgr": {
+      "version": "18_1build2",
+      "size": 25122,
+      "sha256": "e1177bab4f6c1c495c536dfe2fdb34da9d9094a93e2d3ff874166c7c082539a6",
+      "deps": [],
+      "desc": "efibootmgr package"
+    },
+    "powertop": {
+      "version": "2.15_3build1",
+      "size": 202386,
+      "sha256": "f1f382cf803ba08d050e8f01b8b7bd1519fd0d6e171a11a49f8ce0e67e6a3b72",
+      "deps": [],
+      "desc": "powertop package"
+    },
+    "lshw": {
+      "version": "02.19.git.2021.06.19.996aaad9c7_2build3",
+      "size": 383447,
+      "sha256": "1a2e09ff425af36d0eaf7ba0904c29600f1a3c99ccc00b66ebb51d1cb5fcb00a",
+      "deps": [],
+      "desc": "lshw package"
+    },
+    "bison": {
+      "version": "2_3.8.2",
+      "size": 256182,
+      "sha256": "8eaa508a09e405d7ebb5ef64e5cec29c355b20784fe60d6455708a2b45b96da3",
+      "deps": [],
+      "desc": "bison package"
+    },
+    "screenfetch": {
+      "version": "3.9.1",
+      "size": 60285,
+      "sha256": "35b8077b92f3e8d94fe7522bad18dc1859e69ebc6354692fdcdabb0269b71ab5",
+      "deps": [],
+      "desc": "screenfetch package"
+    },
+    "jq": {
+      "version": "1.7.1_3ubuntu0.24.04.1",
+      "size": 11547,
+      "sha256": "4527ae59f74893a640bcd833f7e6f9301079c4c60714c991e85f9d12790bd4e7",
+      "deps": [],
+      "desc": "jq package"
+    },
+    "lftp": {
+      "version": "4.9.2_2ubuntu1.1",
+      "size": 778349,
+      "sha256": "fb38f801c5acef2cd64f6165a710c07cca70012568abc40f9f4cf0714254a9cd",
+      "deps": [],
+      "desc": "lftp package"
+    },
+    "cryptsetup": {
+      "version": "2_2.7.0_1ubuntu4.2",
+      "size": 2596,
+      "sha256": "9fac24b9ef9c605e746bc23ba17a6e54f78a262220d530a69c091fa351447d5d",
+      "deps": [],
+      "desc": "cryptsetup package"
+    },
+    "yt-dlp": {
+      "version": "2024.04.09_1",
+      "size": 346,
+      "sha256": "c2cc508ab123100df58cbdd494f55847c840caf34c3797b2a08db43bbc42afae",
+      "deps": [],
+      "desc": "yt-dlp package"
+    },
+    "ranger": {
+      "version": "1.9.3_5ubuntu0.24.04.1",
+      "size": 7133,
+      "sha256": "5465e25c03e4c85d51665f3a104ab501c33f39757717c72e06087b74feb1b52c",
+      "deps": [],
+      "desc": "ranger package"
+    },
+    "iotop": {
+      "version": "0.6_42_ga14256a_0.2build1",
+      "size": 522,
+      "sha256": "babeec7dd2bf603cf41b98c8211e9da5c14aa4fa41ee93cab7375d50c8eac403",
+      "deps": [],
+      "desc": "iotop package"
+    },
+    "btrfs-progs": {
+      "version": "6.6.3_1.1build2",
+      "size": 1160737,
+      "sha256": "39c4b972d8357343043bf9a2ebf2a759ea0e7f6d55b80138f451f622da35ba1f",
+      "deps": [],
+      "desc": "btrfs-progs package"
+    },
+    "hwinfo": {
+      "version": "21.82_1.1build1",
+      "size": 15987,
+      "sha256": "8bc6e5b141163aeff7ea261ec04ca4c8734bcdb8449cb7afa191245323aaa1b0",
+      "deps": [],
+      "desc": "hwinfo package"
+    },
+    "nvme-cli": {
+      "version": "2.8_1ubuntu0.1",
+      "size": 485300,
+      "sha256": "354422c38932cc58df5f40864478093261a3c7ea3a36d96111d92a0e342745a5",
+      "deps": [],
+      "desc": "nvme-cli package"
+    },
+    "tcpdump": {
+      "version": "4.99.4_3ubuntu4.24.04.1",
+      "size": 513262,
+      "sha256": "746de84c49497c61a2fd6df8488e42b0d40272a14af82d8d39fcab1d437bb32f",
+      "deps": [],
+      "desc": "tcpdump package"
+    },
+    "strace": {
+      "version": "6.8_0ubuntu2",
+      "size": 625759,
+      "sha256": "6043fe1936f7acdd0f4d73debb110b2eacdeb9ad57833638690897fb9c02f99f",
+      "deps": [],
+      "desc": "strace package"
+    },
+    "zstd": {
+      "version": "1.5.5",
+      "size": 721742,
+      "sha256": "2bf84c6b5636418aebc02ebdba1390ae0bce58264b4f1f88621e94096d32dcd3",
+      "deps": [],
+      "desc": "zstd package"
+    },
+    "age": {
+      "version": "1.1.1_1ubuntu0.24.04.3",
+      "size": 2555904,
+      "sha256": "748ce3aa7bac7ed63a3e1516f36b7670a636b00f19df73ce56f7ecf009d9743e",
+      "deps": [],
+      "desc": "age package"
+    },
+    "lsof": {
+      "version": "4.95.0_1build3",
+      "size": 84680,
+      "sha256": "ec9371b06dabddb66b4e027e64733f51e92770cfbd1547c981fcac8c06e514e8",
+      "deps": [],
+      "desc": "lsof package"
+    },
+    "pls": {
+      "version": "0.2.3",
+      "size": 2067440,
+      "sha256": "93c684cd675fd2760674615bb5d17b7d8b98bc747fa979aec26cf8085031a893",
+      "deps": [],
+      "desc": "pls package"
+    },
+    "unzip": {
+      "version": "6.0_28ubuntu4.1",
+      "size": 119832,
+      "sha256": "88f185c9d0e5be77c4c882916ade57bd2e5bf6e4c364bc25a8ff9a33a5635e6b",
+      "deps": [],
+      "desc": "unzip package"
+    },
+    "subversion": {
+      "version": "1.14.3_1build4",
+      "size": 295261,
+      "sha256": "ec274b7bce9e13987a3a5474bd8708ba202b51e2abad4beecd9ce2eadfb5979f",
+      "deps": [],
+      "desc": "subversion package"
+    },
+    "valgrind": {
+      "version": "1_3.22.0_0ubuntu3",
+      "size": 99178,
+      "sha256": "dfb1c25235dde0e63ff38206bff06948fc6e5219db16c01558bd799f9e3c6261",
+      "deps": [],
+      "desc": "valgrind package"
+    },
+    "nano": {
+      "version": "7.2_2ubuntu0.1",
+      "size": 146804,
+      "sha256": "5ad420b051fc9dbfe62212999033da7804d86dbad3886f7988ff312bbafd0d01",
+      "deps": [],
+      "desc": "nano package"
+    },
+    "coreutils": {
+      "version": "9.4_3ubuntu6.1",
+      "size": 1205891,
+      "sha256": "d9c6c085ae1e9926ad688a4649f324a1816ca43e04eadb5a78124aa40ed1db13",
+      "deps": [],
+      "desc": "coreutils package"
+    },
+    "bat": {
+      "version": "0.24.0_1build1",
+      "size": 2631044,
+      "sha256": "bbe14ea7648ec22de919b3ba0beaa2664d5c8080f9373554c98699725b9837a7",
+      "deps": [],
+      "desc": "bat package"
+    },
+    "openssh-server": {
+      "version": "1_9.6p1_3ubuntu13.14",
+      "size": 422330,
+      "sha256": "6df441d14a2266700af22b6a6a0f1c6b1a09e965c80b2d6579a7777fdef4b081",
+      "deps": [],
+      "desc": "openssh-server package"
+    },
+    "ninja-build": {
+      "version": "1.11.1_2",
+      "size": 120498,
+      "sha256": "65088990ba8cef21a03fbf9073a16c5babcdad8559863368d537a9f87f850d1f",
+      "deps": [],
+      "desc": "ninja-build package"
+    },
+    "tree": {
+      "version": "2.1.1_2ubuntu3.24.04.2",
+      "size": 38316,
+      "sha256": "ad7f214302e215e3599c5499dca020811220797115d756f3c0b6b89761aa77fd",
+      "deps": [],
+      "desc": "tree package"
+    },
+    "screen": {
+      "version": "4.9.1_1build1",
+      "size": 265387,
+      "sha256": "579463614f580bc256800f3c148fdf6149ce74e7c549579ffe508e7b1a894145",
+      "deps": [],
+      "desc": "screen package"
+    },
+    "fortune-mod": {
+      "version": "1_1.99.1_7.3build1",
+      "size": 7173,
+      "sha256": "5a0306789e5db35f0ce8e29b45b6d2791c06c050d5c5f8c928df58bb70c54b00",
+      "deps": [],
+      "desc": "fortune-mod package"
+    },
+    "gawk": {
+      "version": "1_5.2.1_2build3",
+      "size": 389622,
+      "sha256": "f84b9aa93ba62f565447be90337fe735abe7e6891821030d9b7def50990b3de8",
+      "deps": [],
+      "desc": "gawk package"
+    },
+    "iperf3": {
+      "version": "3.16_1build2",
+      "size": 3194,
+      "sha256": "a43cc77436bc5c6e7b5b62955b4fd8e90951214cdaff086075570e6964f16474",
+      "deps": [],
+      "desc": "iperf3 package"
+    },
+    "ncdu": {
+      "version": "1.19_0.1",
+      "size": 43971,
+      "sha256": "d2d28518b332952eeafb21888c86530836c02ffd0bfdbc978902f57b4fc5e3c4",
+      "deps": [],
+      "desc": "ncdu package"
+    },
+    "nethogs": {
+      "version": "0.8.7_2build2",
+      "size": 31453,
+      "sha256": "b9eb0704612f365b11770df1abc1a025c750e5675f3202c21783120a2aef7e22",
+      "deps": [],
+      "desc": "nethogs package"
+    },
+    "fossil": {
+      "version": "1_2.23_1ubuntu0.1",
+      "size": 2455595,
+      "sha256": "77c1ec6f5d3292f920076f972ad31e5d5068457aa171401e5df19a2d04d8a0e2",
+      "deps": [],
+      "desc": "fossil package"
+    },
+    "hdparm": {
+      "version": "9.65",
+      "size": 67965,
+      "sha256": "48311bd85265bc47929be3ca9647f9f7461a1cc7c2adfb0a7192fa914e8f6b97",
+      "deps": [],
+      "desc": "hdparm package"
+    },
+    "nftables": {
+      "version": "1.0.9_1build1",
+      "size": 7485,
+      "sha256": "b0a4cb8cf2745b57e6e4eb1a314de29098357862d8bdc5e489b6b88afb332917",
+      "deps": [],
+      "desc": "nftables package"
+    },
+    "logrotate": {
+      "version": "3.21.0_2build1",
+      "size": 41064,
+      "sha256": "b31c616686ce8a384ab7aff7377eea70b8109a4fca97f0ba9697c5aff3c6f84b",
+      "deps": [],
+      "desc": "logrotate package"
+    },
     "psmisc": {
       "version": "23.7_1build1",
       "size": 47686,
       "sha256": "42cc501fac4874ddf4fd3da9cc54c7e230be8105e03189be47e4b9ccbe914c2f",
       "deps": [],
       "desc": "psmisc package"
+    },
+    "rclone": {
+      "version": "1.60.1",
+      "size": 18452526,
+      "sha256": "14b3c2bdd21af28934b2a32e88edc46a89e7cf62c0f30cbb0d44092de436823a",
+      "deps": [],
+      "desc": "rclone package"
+    },
+    "vnstat": {
+      "version": "2.12_1",
+      "size": 100701,
+      "sha256": "910358bdcac067152e32cb83689c024753b22af0719d06ffd290c5a5a8277d0e",
+      "deps": [],
+      "desc": "vnstat package"
+    },
+    "yq": {
+      "version": "3.1.0_3",
+      "size": 736,
+      "sha256": "742165b666c5f71b931f83e3ac47197825f69d27148c2756301f938dc018ab7f",
+      "deps": [],
+      "desc": "yq package"
+    },
+    "emacs-nox": {
+      "version": "1_29.3",
+      "size": 1387421,
+      "sha256": "bb4b791da0fa7c200ca64519e7b6780e07d520aae8d8a1a866e2e15d0eb5b567",
+      "deps": [],
+      "desc": "emacs-nox package"
+    },
+    "sysbench": {
+      "version": "1.0.20",
+      "size": 103562,
+      "sha256": "cd7414569ee42e30679257317db076f13426073b1f1a5ba2371f4447ee5b7bc7",
+      "deps": [],
+      "desc": "sysbench package"
+    },
+    "exfatprogs": {
+      "version": "1.2.2_1build1",
+      "size": 67364,
+      "sha256": "5145f32d9747e5d42567083c46fe6c64ec29c72b2ec81812c4183dabac838087",
+      "deps": [],
+      "desc": "exfatprogs package"
+    },
+    "podman": {
+      "version": "4.9.3",
+      "size": 13826898,
+      "sha256": "6aeae8bec0145ec72925d51c075252f31e4c9a999b71371e872cbc90381a6636",
+      "deps": [],
+      "desc": "podman package"
+    },
+    "bridge-utils": {
+      "version": "1.7.1_1ubuntu2",
+      "size": 13320,
+      "sha256": "75a270fbe59464163bc12f722b41f6c01766aa241e208ddac042b4567a22c1e1",
+      "deps": [],
+      "desc": "bridge-utils package"
+    },
+    "gdisk": {
+      "version": "1.0.10_1build1",
+      "size": 195026,
+      "sha256": "366796a893919cc94b1e65c0af5ffc50c113ba676923d861c9445e83e0562373",
+      "deps": [],
+      "desc": "gdisk package"
+    },
+    "patch": {
+      "version": "2.7.6_7build3",
+      "size": 94269,
+      "sha256": "a9cd17f6e816f181ed0f750ccca8c7e92020e17ebc74d38317758a5e609439d5",
+      "deps": [],
+      "desc": "patch package"
+    },
+    "ed": {
+      "version": "1.20.1_1",
+      "size": 28627,
+      "sha256": "5fd153903473e9f6fefeab586b05495c98e141924a599cc16f43d338211cf678",
+      "deps": [],
+      "desc": "ed package"
+    },
+    "dosfstools": {
+      "version": "4.2_1.1build1",
+      "size": 70082,
+      "sha256": "084843d80cde57b6539d3d8d2bed9a942971b10ba7018bccfa4a1a5346bb3f46",
+      "deps": [],
+      "desc": "dosfstools package"
+    },
+    "flac": {
+      "version": "1.4.3",
+      "size": 162316,
+      "sha256": "25b73525ec1fdffb65727ad953e11ccc5041f3d326b73743d981c9e9fde5d038",
+      "deps": [],
+      "desc": "flac package"
+    },
+    "lm-sensors": {
+      "version": "1_3.6.0_9build1",
+      "size": 69711,
+      "sha256": "ad4984b066fb2995e8faa4747b78fdfadda9a1f5968622266b4f275930f2fd6e",
+      "deps": [],
+      "desc": "lm-sensors package"
     },
     "pciutils": {
       "version": "1_3.10.0_2build1",
@@ -1395,28 +450,973 @@
       "deps": [],
       "desc": "pciutils package"
     },
+    "atop": {
+      "version": "2.10.0_2ubuntu2",
+      "size": 181959,
+      "sha256": "f8751391f4c5acc9a182d71152b9f23cdbd79d09e453ee82d17ed9fcd3f83662",
+      "deps": [],
+      "desc": "atop package"
+    },
+    "man-db": {
+      "version": "2.12.0_4build2",
+      "size": 157058,
+      "sha256": "064509ffbe06a47bca28a8cced0cf9c85cade465a259ccfd096ac1e629937869",
+      "deps": [],
+      "desc": "man-db package"
+    },
+    "mosh": {
+      "version": "1.4.0_1ubuntu3",
+      "size": 217009,
+      "sha256": "52ebc52ffc0ed1add3ac844f1455845fbf86574b341265745beb5a1fefd7861a",
+      "deps": [],
+      "desc": "mosh package"
+    },
+    "xfsprogs": {
+      "version": "6.6.0_1ubuntu2.1",
+      "size": 989421,
+      "sha256": "91678c7726360b1e59aafa86ed852caeda7516b7261ba08f1b43f99f210b00f3",
+      "deps": [],
+      "desc": "xfsprogs package"
+    },
+    "xz-utils": {
+      "version": "5.6.1",
+      "size": 48976,
+      "sha256": "5a01540f685e896cd48ebd0fbd79d6ed201e6c1dccb552dcba492aef0772ea22",
+      "deps": [],
+      "desc": "xz-utils package"
+    },
+    "bzip2": {
+      "version": "1.0.8_5.1build0.1",
+      "size": 24771,
+      "sha256": "aec9de516775541709c8c443e94b465149239489f7f1be568e13712c4c4c3470",
+      "deps": [],
+      "desc": "bzip2 package"
+    },
+    "htop": {
+      "version": "3.3.0_4build1",
+      "size": 168642,
+      "sha256": "757a745bf3a1599659778afaaf8b9112d86c432eed505619f1251d62493d906d",
+      "deps": [],
+      "desc": "htop package"
+    },
+    "udev": {
+      "version": "255.4_1ubuntu8.12",
+      "size": 659768,
+      "sha256": "e6797ea05813a8208e54e1bd4876ea36fd7b7e2a427687b3f3a0340eb8c54de6",
+      "deps": [],
+      "desc": "udev package"
+    },
+    "iftop": {
+      "version": "1.0~pre4_9build2",
+      "size": 28068,
+      "sha256": "ddd7ce978d7d997737a253f45574bddd1e458e369360afce52ae8d0b11248ed7",
+      "deps": [],
+      "desc": "iftop package"
+    },
+    "perl": {
+      "version": "5.38.2_3.2ubuntu0.2",
+      "size": 142492,
+      "sha256": "7ec87da6f83f16bc4294b4db96d36a25cb9c586673395d1ed8647a97fc746b40",
+      "deps": [],
+      "desc": "perl package"
+    },
+    "tesseract-ocr": {
+      "version": "5.3.4_1build5",
+      "size": 340980,
+      "sha256": "c493b738fe85a71058a50f48d444d84fcec09ec6db385bde5f6b104b77c0c478",
+      "deps": [],
+      "desc": "tesseract-ocr package"
+    },
+    "wget": {
+      "version": "1.21.4_1ubuntu4.1",
+      "size": 234072,
+      "sha256": "3c6fd7cc3c441fbfd9a6ee9116291f9edd8cc2430ae611d425be2468c6b0b55b",
+      "deps": [],
+      "desc": "wget package"
+    },
+    "ufw": {
+      "version": "0.36.2_6",
+      "size": 2156,
+      "sha256": "aef9b819dba3abde8510541ca6f645d0daf3492a5a687652c11837d8b82b8d46",
+      "deps": [],
+      "desc": "ufw package"
+    },
+    "whois": {
+      "version": "5.5.22",
+      "size": 49184,
+      "sha256": "3df2ddaec8eebd7a06382d95e5b24212cab0a1e257a8bbb4d42d77dbed811164",
+      "deps": [],
+      "desc": "whois package"
+    },
+    "yplay": {
+      "version": "0.1.0",
+      "size": 701425,
+      "sha256": "ad85e20bd5484d14d72c1be05c9e4b8042e65a700209ced39a4c29b46b48f07a",
+      "deps": [],
+      "desc": "yplay package"
+    },
+    "tar": {
+      "version": "1.35",
+      "size": 225416,
+      "sha256": "04eba64f15c291bde1618ac0dc5c80783e4a5d9829941cdccebfc1b02ceec0d2",
+      "deps": [],
+      "desc": "tar package"
+    },
+    "ghostscript": {
+      "version": "10.02.1~dfsg1_0ubuntu7.8",
+      "size": 6318,
+      "sha256": "916fbbb3449fab6e0aa3f79b1a46cfca37486e850ab04616569ea945b1357aaf",
+      "deps": [],
+      "desc": "ghostscript package"
+    },
+    "findutils": {
+      "version": "4.9.0_5build1",
+      "size": 118247,
+      "sha256": "e66998b0af8b80d959774f998c56d52df0957fb2c7793616888c498cac768fde",
+      "deps": [],
+      "desc": "findutils package"
+    },
+    "sshpass": {
+      "version": "1.09_1",
+      "size": 7170,
+      "sha256": "19609661cb634eb9747f848c82f71d3fcac10235ebc574da5164b08d863bfbf4",
+      "deps": [],
+      "desc": "sshpass package"
+    },
+    "nmon": {
+      "version": "16p",
+      "size": 78394,
+      "sha256": "c45c05b9b30608b0b3d1495816e449fce482e29ee7c4fc5d322737d902dc0310",
+      "deps": [],
+      "desc": "nmon package"
+    },
+    "pandoc": {
+      "version": "3.1.3",
+      "size": 32836357,
+      "sha256": "559abce7a60f6c1f2249050290beb49fb3a0c13f9f2335dac02586c8d32e7fb9",
+      "deps": [],
+      "desc": "pandoc package"
+    },
+    "cmatrix": {
+      "version": "2.0_6",
+      "size": 8306,
+      "sha256": "941d235f7bea32cc461b469b2c75848d47c5a80ac9cc110ef70a8a88a5112a47",
+      "deps": [],
+      "desc": "cmatrix package"
+    },
+    "gcc": {
+      "version": "4_13.2.0_7ubuntu1",
+      "size": 556,
+      "sha256": "0a61becaaa0f0df495f26e1ca8f7c4e566e1b636fb7c04299ca4d35b1a7e6817",
+      "deps": [],
+      "desc": "gcc package"
+    },
+    "traceroute": {
+      "version": "1_2.1.5_1",
+      "size": 38671,
+      "sha256": "c52e3c34c3144db2fea1b4ec7175a0801b39942c9b952cb23bc6c008aa4f858b",
+      "deps": [],
+      "desc": "traceroute package"
+    },
+    "bash": {
+      "version": "5.2.21_2ubuntu4",
+      "size": 728016,
+      "sha256": "97c7accc5b79d096b3aadf8025940d37e87de554cce54fc414d1899fa9a2541e",
+      "deps": [],
+      "desc": "bash package"
+    },
+    "ltrace": {
+      "version": "0.7.3_6.4ubuntu3",
+      "size": 132733,
+      "sha256": "22c27a9c2aef4b276e150908f55b19169a7af29466f2665583fada36005371bc",
+      "deps": [],
+      "desc": "ltrace package"
+    },
+    "zsh": {
+      "version": "5.9_6ubuntu2",
+      "size": 471995,
+      "sha256": "a867a8befa426699e7ec816109ac7d8b40efa19cb1ce7492dd4a1a8197a76440",
+      "deps": [],
+      "desc": "zsh package"
+    },
+    "tmux": {
+      "version": "3.4_1ubuntu0.1",
+      "size": 487896,
+      "sha256": "3c1e7064218d9af578979a4994c0c3a25b2f00b09031a73345e7fc8713f704f8",
+      "deps": [],
+      "desc": "tmux package"
+    },
+    "redis-tools": {
+      "version": "5_7.0.15_1ubuntu0.24.04.2",
+      "size": 2475911,
+      "sha256": "52835c90ce64ad646826f12e39437b80f9af46f8ae1c672e8a9ce0791a65d8ee",
+      "deps": [],
+      "desc": "redis-tools package"
+    },
+    "miller": {
+      "version": "6.11.0_1ubuntu0.3",
+      "size": 4168290,
+      "sha256": "8559686e504f182e5496b0fcaf646dc7bef4a22d70686da5228e506c37e80967",
+      "deps": [],
+      "desc": "miller package"
+    },
+    "lua5.4": {
+      "version": "5.4.6_3build2",
+      "size": 176065,
+      "sha256": "a1064cbcc89584aaec61846b285e1de9eaed54c2605acd08fe4be1a4f613a42f",
+      "deps": [],
+      "desc": "lua5.4 package"
+    },
+    "procps": {
+      "version": "2_4.0.4_4ubuntu3.2",
+      "size": 200061,
+      "sha256": "85a8e797245793cebb417f62230548e6a6b14878e14fc43a9b8ed4ea05c8e871",
+      "deps": [],
+      "desc": "procps package"
+    },
+    "time": {
+      "version": "1.9_0.2build1",
+      "size": 8187,
+      "sha256": "a9f68bbbd19a3de9e75e8cfe896c343261f6ab3ab2aab56ac5b0ae759c670bf0",
+      "deps": [],
+      "desc": "time package"
+    },
+    "smartmontools": {
+      "version": "7.4_2build1",
+      "size": 528268,
+      "sha256": "637701d06b779e4b6423d23ec5d5cda2bc7fe1d522a93539f431f33f64b233d3",
+      "deps": [],
+      "desc": "smartmontools package"
+    },
+    "btop": {
+      "version": "1.3.0_1",
+      "size": 633714,
+      "sha256": "c6c95ec7379928b0d00d0cd6d7199aa1989500065fc4de17a5d4c0e245b14fb0",
+      "deps": [],
+      "desc": "btop package"
+    },
+    "httpie": {
+      "version": "3.2.2_1",
+      "size": 733,
+      "sha256": "429f3ee369d1412fe4a73e6376324beb9410522c4d8f3d2315c21d9ad129772c",
+      "deps": [],
+      "desc": "httpie package"
+    },
+    "locales": {
+      "version": "2.39_0ubuntu8.6",
+      "size": 4076,
+      "sha256": "1d7b4bae54e4e91dd623c7320c5ebda3bccea341f27e3179b563f946e91ef59e",
+      "deps": [],
+      "desc": "locales package"
+    },
+    "restic": {
+      "version": "0.16.4_2ubuntu0.24.04.3",
+      "size": 7041780,
+      "sha256": "dd8ae0d97093a4d08fa3ba97130456bbb32eedd9a6fbce063447db42821203a0",
+      "deps": [],
+      "desc": "restic package"
+    },
+    "yasm": {
+      "version": "1.3.0_4",
+      "size": 484684,
+      "sha256": "e393da143594c4b675465921abcbc345011d26ed450f2e83dadd124659188d4c",
+      "deps": [],
+      "desc": "yasm package"
+    },
+    "mediainfo": {
+      "version": "24.01.1_1build2",
+      "size": 16901,
+      "sha256": "de1decfe4902635428cfca7545869f1f6557a47a335e0a1e4bb1545b3d671d28",
+      "deps": [],
+      "desc": "mediainfo package"
+    },
+    "diffutils": {
+      "version": "1_3.10_1build1",
+      "size": 109280,
+      "sha256": "954201745f7f4b0eba5b2875d20120e955928622ccdd9e14b163603bbca62b6c",
+      "deps": [],
+      "desc": "diffutils package"
+    },
+    "wget2": {
+      "version": "2.1.0_2.1build2",
+      "size": 85287,
+      "sha256": "c070306375de0d4d2956ded3a92aa7652ed8289875e240d52946144475433e0a",
+      "deps": [],
+      "desc": "wget2 package"
+    },
+    "sed": {
+      "version": "4.9_2build1",
+      "size": 58399,
+      "sha256": "9784bfa7e05f2db8a43d9a05ae2ee2afce48dd0b1067b27e447a3ba4a4527edb",
+      "deps": [],
+      "desc": "sed package"
+    },
+    "sox": {
+      "version": "14.4.2",
+      "size": 34771,
+      "sha256": "740abf2c9360ffe13954e2537fcedb50c8021ff6c07bf41ea4c2f9459f0ddc93",
+      "deps": [],
+      "desc": "sox package"
+    },
+    "zip": {
+      "version": "3.0_13ubuntu0.2",
+      "size": 154233,
+      "sha256": "b668cdef3ec912414c46a1f449105c8a0eebdb76051b39f988eadc731434f28e",
+      "deps": [],
+      "desc": "zip package"
+    },
+    "automake": {
+      "version": "1_1.16.5_1.3ubuntu1",
+      "size": 88880,
+      "sha256": "4496597d30c2c1dc6ed27e88021a2a7d3165582fdd61052e351e49fce0b6b48a",
+      "deps": [],
+      "desc": "automake package"
+    },
+    "rar": {
+      "version": "2_7.00_1build1",
+      "size": 378788,
+      "sha256": "3a6268853ad214c74e7fba8c3313e69b88c5a3835ca794eabcd167e5387d329a",
+      "deps": [],
+      "desc": "rar package"
+    },
+    "nmap": {
+      "version": "7.94",
+      "size": 969273,
+      "sha256": "40f52a05931ee41e2a726e8cd025657b5c58e17e8a74c89e8623cf3d1dad40b1",
+      "deps": [],
+      "desc": "nmap package"
+    },
+    "pigz": {
+      "version": "2.8_1",
+      "size": 68654,
+      "sha256": "d19728c2848f475688cbc7265afacb676b3f5432c78f1352d8e1de84ef60ff96",
+      "deps": [],
+      "desc": "pigz package"
+    },
+    "black": {
+      "version": "24.2.0_1ubuntu1",
+      "size": 350,
+      "sha256": "5fd980fd782bb9edf0f48890630f462e13734b083721fb988200e4a6ab471136",
+      "deps": [],
+      "desc": "black package"
+    },
+    "graphicsmagick": {
+      "version": "1.4",
+      "size": 1851,
+      "sha256": "4b081d9f2d4dbeac74f0e807cb89d7485289dbe36d6557afea44f82544d4ebc5",
+      "deps": [],
+      "desc": "graphicsmagick package"
+    },
+    "micro": {
+      "version": "2.0.13_1",
+      "size": 4979167,
+      "sha256": "477c2a77fd4c5bf9255307322a66798a362b8fe8b4306e25a35285ba70fcd947",
+      "deps": [],
+      "desc": "micro package"
+    },
+    "gzip": {
+      "version": "1.12_1ubuntu3.1",
+      "size": 60450,
+      "sha256": "b2ed5c0ac8a638fbdb3043ee6f989022f940feb91836cc7348f901ec9e17e934",
+      "deps": [],
+      "desc": "gzip package"
+    },
     "meson": {
       "version": "1.3.2_1ubuntu1",
       "size": 1088,
       "sha256": "323b73a1561ac5d47116d3827e46c81b85bb02ee4d0f600831b3b1704a46ef40",
       "deps": [],
       "desc": "meson package"
+    },
+    "sudo": {
+      "version": "1.9.15p5_3ubuntu5.24.04.1",
+      "size": 523941,
+      "sha256": "648ec07df19958b49d92beb72beb0d7fabcb1f53f0dfaebc5f3ab053ad9fd470",
+      "deps": [],
+      "desc": "sudo package"
+    },
+    "iptables": {
+      "version": "1.8.10_3ubuntu2",
+      "size": 130222,
+      "sha256": "572d0113d380f1019a72f0ccad4cff4f32f22a5205ac570480bcb736ee0bb997",
+      "deps": [],
+      "desc": "iptables package"
+    },
+    "opus-tools": {
+      "version": "0.2_1build3",
+      "size": 56074,
+      "sha256": "301b634a80fb8d8cd8b48cfc29ea323421718ee3c0d0ef5b963225ecca80c022",
+      "deps": [],
+      "desc": "opus-tools package"
+    },
+    "tig": {
+      "version": "2.5.8_1build2",
+      "size": 208435,
+      "sha256": "c4c7686acbb536a3f07698817fd3970d70570d7f2fcee95867a488ff303b390c",
+      "deps": [],
+      "desc": "tig package"
+    },
+    "cron": {
+      "version": "3.0pl1_184ubuntu2",
+      "size": 40001,
+      "sha256": "da5c47f308b857895d886fd0da8c990e1666c75c1a0dcc5b5115a8a3c313aacb",
+      "deps": [],
+      "desc": "cron package"
+    },
+    "dash": {
+      "version": "0.5.12_6ubuntu5",
+      "size": 66899,
+      "sha256": "1189acac5e007676293a257f1f28c68265a02ef2ce17b4dbbbf700ab09e58ea7",
+      "deps": [],
+      "desc": "dash package"
+    },
+    "fontconfig": {
+      "version": "2.15.0_1.1ubuntu2",
+      "size": 20753,
+      "sha256": "4d18a219a1fa866154f3780cd371c52ca46032059e7d455907ab9ef4227ff8ac",
+      "deps": [],
+      "desc": "fontconfig package"
+    },
+    "file": {
+      "version": "1_5.45_3build1",
+      "size": 10070,
+      "sha256": "64921c722bd770d8d2b16e9b0dbfe96f0691625c7b9009d3bec7f686ccefbd64",
+      "deps": [],
+      "desc": "file package"
+    },
+    "inxi": {
+      "version": "3.3.34_1_1",
+      "size": 375941,
+      "sha256": "de37d20c8bdbf8d930e1cbb2ebc86711740b2755b31577a63b4064818f227751",
+      "deps": [],
+      "desc": "inxi package"
+    },
+    "docker.io": {
+      "version": "28.2.2_0ubuntu1~24.04.1",
+      "size": 34644669,
+      "sha256": "25601c017ad258a408af07a9ba33248f955e4e3f0e732c4dd9e15c54e964dcfd",
+      "deps": [],
+      "desc": "docker.io package"
+    },
+    "rsync": {
+      "version": "3.2.7_1ubuntu1.2",
+      "size": 282428,
+      "sha256": "86948ddc7fe5d712280d299a76f62a82552b99bd175a21ffaf5b3352d298ad64",
+      "deps": [],
+      "desc": "rsync package"
+    },
+    "lvm2": {
+      "version": "2.03.16_3ubuntu3.2",
+      "size": 1047998,
+      "sha256": "38febed752244145278bbaf754bccf28fdfe6d9cb0a0ebb287427805680125b1",
+      "deps": [],
+      "desc": "lvm2 package"
+    },
+    "lz4": {
+      "version": "1.9.4_1build1.1",
+      "size": 100826,
+      "sha256": "00b3df4d31f23fba333c9b2d01efa820eec590b06eadc1d3db005e7f911aa8ab",
+      "deps": [],
+      "desc": "lz4 package"
+    },
+    "apparmor": {
+      "version": "4.0.1really4.0.1_0ubuntu0.24.04.5",
+      "size": 622902,
+      "sha256": "ed3722583dd56fa34239c2b35806e9851710565177d949cc962ef40907b3737c",
+      "deps": [],
+      "desc": "apparmor package"
+    },
+    "mdadm": {
+      "version": "4.3_1ubuntu2.1",
+      "size": 395219,
+      "sha256": "fc24e3a817b6076510f34b8b85c81d0cfdfe357a0cd11f9c9e6ea338a870e423",
+      "deps": [],
+      "desc": "mdadm package"
+    },
+    "nodejs": {
+      "version": "18.19.1",
+      "size": 2080,
+      "sha256": "df4d3d820ed1bbe3b4fcfd0503284259330c23186814226e040ec70d0903abe4",
+      "deps": [],
+      "desc": "nodejs package"
+    },
+    "axel": {
+      "version": "2.17.13_1build2",
+      "size": 30827,
+      "sha256": "e6d0f1050a7f981d722c1b7043b6c7461103686ff07587719a841be307790193",
+      "deps": [],
+      "desc": "axel package"
+    },
+    "gdb": {
+      "version": "15.0.50.20240403_0ubuntu1",
+      "size": 4447513,
+      "sha256": "b19d6b1696037a7563f6be2d535a2ea061e6fc736e3b8fc8aac6f1f7ae852399",
+      "deps": [],
+      "desc": "gdb package"
+    },
+    "ffmpeg": {
+      "version": "7_6.1.1_3ubuntu5",
+      "size": 254110,
+      "sha256": "896dda7ab8854065f1c05ff45d5e653537bbacf8fed40ab99f644cee3088d72a",
+      "deps": [],
+      "desc": "ffmpeg package"
+    },
+    "fzf": {
+      "version": "0.44.1_1ubuntu0.3",
+      "size": 1503031,
+      "sha256": "726e5302c4f3d42bd51cf7d6373af1f83d8a4624029672e3ab5087d0082ff2bd",
+      "deps": [],
+      "desc": "fzf package"
+    },
+    "python3-pip": {
+      "version": "24.0",
+      "size": 373,
+      "sha256": "9bb802c6e49751a38211783f5ef620c825461520a15db5914d5cbbb1cda78b60",
+      "deps": [],
+      "desc": "python3-pip package"
+    },
+    "e2fsprogs": {
+      "version": "1.47.0_2.4~exp1ubuntu4.1",
+      "size": 444269,
+      "sha256": "5ec914086af83e3cd397999f873cd6be84599e50eab4163cd2d9d3c684de9f63",
+      "deps": [],
+      "desc": "e2fsprogs package"
+    },
+    "info": {
+      "version": "7.1_3build2",
+      "size": 123524,
+      "sha256": "8b7219b11e1d157b563aed5047b61fdd60e694e8929c9bec6398574b59fe6b59",
+      "deps": [],
+      "desc": "info package"
+    },
+    "ethtool": {
+      "version": "1_6.7_1build1",
+      "size": 225138,
+      "sha256": "799f4c922a1c20744f35c59b6e0fba82755ea34584ab34573063cc3b84a6bf36",
+      "deps": [],
+      "desc": "ethtool package"
+    },
+    "stress-ng": {
+      "version": "0.17.06_1build1",
+      "size": 1815965,
+      "sha256": "63e01ee32171a83d8ae0032a35172e6f8d0d358459fc33fcd0825855a2c2ae09",
+      "deps": [],
+      "desc": "stress-ng package"
+    },
+    "byobu": {
+      "version": "6.11_0ubuntu1",
+      "size": 23749,
+      "sha256": "dfa895598a3277b9388a55df6ba26c9ff1b5cc46e482aaec06571ea7efbed40c",
+      "deps": [],
+      "desc": "byobu package"
+    },
+    "tmate": {
+      "version": "2.4.0_2build3",
+      "size": 307464,
+      "sha256": "484ad09a6c6f4219a0a3b809444778ead3ed7af087e245b6f7274f229a859f01",
+      "deps": [],
+      "desc": "tmate package"
+    },
+    "cmake": {
+      "version": "3.28.3_1build7",
+      "size": 14372684,
+      "sha256": "abc52ec02f4c998328d79a95c5983f9cc63221f3f9e9cc5268dae1dd01e33e54",
+      "deps": [],
+      "desc": "cmake package"
+    },
+    "ipython3": {
+      "version": "8.20.0_1",
+      "size": 346,
+      "sha256": "844556c3e3548b17aba8d424e6281ff00959b73a4986a6ed8177c718bd84f68b",
+      "deps": [],
+      "desc": "ipython3 package"
+    },
+    "csvtool": {
+      "version": "2.4_3build1",
+      "size": 577505,
+      "sha256": "56fdff88843d6e6db16b0d4a5cfb9b391269e0f6a208172223b511f2c467c9e1",
+      "deps": [],
+      "desc": "csvtool package"
+    },
+    "fdisk": {
+      "version": "2.39.3_9ubuntu6.4",
+      "size": 108208,
+      "sha256": "92a83ed417321d778e91eaa6e231c5474a63f70b210eb36c1bd281bc79e05193",
+      "deps": [],
+      "desc": "fdisk package"
+    },
+    "less": {
+      "version": "590_2ubuntu2.1",
+      "size": 108666,
+      "sha256": "bb2ecb5deb06825e505c91094af578cfaa6a98e016c7f2780e8bc28add53d3dc",
+      "deps": [],
+      "desc": "less package"
+    },
+    "mariadb-client": {
+      "version": "1_10.11.13_0ubuntu0.24.04.1",
+      "size": 12354063,
+      "sha256": "e55afab317c4236327f3c14ccfcecf710b661c2dc64e8006990f8e7b71eba1ac",
+      "deps": [],
+      "desc": "mariadb-client package"
+    },
+    "ntfs-3g": {
+      "version": "1_2022.10.3_1.2ubuntu3",
+      "size": 410540,
+      "sha256": "a4d2d68790a0d0d3a9e511c2f8bbf9a07f4f2241a0fe0982509b008af7c208d1",
+      "deps": [],
+      "desc": "ntfs-3g package"
+    },
+    "neofetch": {
+      "version": "7.1.0_4",
+      "size": 91583,
+      "sha256": "9a1f08504b85a5acc10eae2f6b12f5dfcf6205f546470942810409ba12923657",
+      "deps": [],
+      "desc": "neofetch package"
+    },
+    "systemd": {
+      "version": "255.4_1ubuntu8.12",
+      "size": 1332617,
+      "sha256": "7a902bbfd88ebcbf4abaae7ff041dbeef105616645de2a6dd427dcd10aaac7da",
+      "deps": [],
+      "desc": "systemd package"
+    },
+    "duplicity": {
+      "version": "2.1.4_3ubuntu2",
+      "size": 1785,
+      "sha256": "78138204841c1e044864d687189860fd7e97cae284274634e7d82caafc25fe0e",
+      "deps": [],
+      "desc": "duplicity package"
+    },
+    "fio": {
+      "version": "3.36_1ubuntu0.1",
+      "size": 488495,
+      "sha256": "c01b075474cd9042b9b537c8d642eb9d1c788251661461e880bbae7ef70953a3",
+      "deps": [],
+      "desc": "fio package"
+    },
+    "iputils-ping": {
+      "version": "3_20240117_1ubuntu0.1",
+      "size": 37100,
+      "sha256": "b0b6b5be06f6bcde3a5e023dea276e03bc86f5dfa2ebae8b1082d570fd371199",
+      "deps": [],
+      "desc": "iputils-ping package"
+    },
+    "parallel": {
+      "version": "20231122",
+      "size": 163644,
+      "sha256": "ab7ff8dce1f90025a957fd5a8cf648ac2025701a00bebbaafbc294d98f00f5f9",
+      "deps": [],
+      "desc": "parallel package"
+    },
+    "glances": {
+      "version": "3.4.0.3",
+      "size": 689,
+      "sha256": "c0c1eea972ac664be4f32d75f0d104a3c0016b464a5a3b89212d79ca813cb85c",
+      "deps": [],
+      "desc": "glances package"
+    },
+    "parted": {
+      "version": "3.6_4build1",
+      "size": 44961,
+      "sha256": "8aeaff7c53900f77bace0389b469a48071f8ac3b088bd07c9fe0e7839ce4c5cf",
+      "deps": [],
+      "desc": "parted package"
+    },
+    "os-prober": {
+      "version": "1.81ubuntu4",
+      "size": 2325,
+      "sha256": "c553febedb8602fa70cf2be51a7b4e88ef9ef4cbc842f62e33fb73fa6f5b37eb",
+      "deps": [],
+      "desc": "os-prober package"
+    },
+    "sysstat": {
+      "version": "12.6.1_2",
+      "size": 257343,
+      "sha256": "6a98f1c5ea68bd4e27fb2fbcb1840739112b2713ba58e979662b36978930e470",
+      "deps": [],
+      "desc": "sysstat package"
+    },
+    "fail2ban": {
+      "version": "1.0.2_3ubuntu0.1",
+      "size": 1831,
+      "sha256": "c0bd93c756f9de5a3d6f429f4cb94feb60cd2f6f8264d4814623cd7755e7f883",
+      "deps": [],
+      "desc": "fail2ban package"
+    },
+    "stress": {
+      "version": "1.0.7_1",
+      "size": 9734,
+      "sha256": "1282c7e55c4f232bdbec7fbb8ae435cbb25558718f45ad9ca60e5253bd562c6d",
+      "deps": [],
+      "desc": "stress package"
+    },
+    "usbutils": {
+      "version": "1_017_3build1",
+      "size": 87662,
+      "sha256": "f76a7a41a8f98d818ebf8c4e972b76f37b73c5d53cefc4534745c01c54b8d7dc",
+      "deps": [],
+      "desc": "usbutils package"
+    },
+    "duf": {
+      "version": "0.8.1_1ubuntu0.24.04.3",
+      "size": 1034147,
+      "sha256": "fcfe54fa4bc1a786911376128bea025905ccb7ae4a91f7d9ffc88a30d83a70eb",
+      "deps": [],
+      "desc": "duf package"
+    },
+    "pass": {
+      "version": "1.7.4_6",
+      "size": 8408,
+      "sha256": "b2cf6fea6369284b2f3f42172282678ad12454640dd5e8d9b69e75639f985c00",
+      "deps": [],
+      "desc": "pass package"
+    },
+    "mypy": {
+      "version": "1.9.0_4ubuntu1",
+      "size": 487,
+      "sha256": "813694f0107083acaf233384fe3e81952f345fc61a283310c3fc7be5002132ff",
+      "deps": [],
+      "desc": "mypy package"
+    },
+    "vorbis-tools": {
+      "version": "1.4.2_2",
+      "size": 109346,
+      "sha256": "087658dfaee784407c6a3b85b5cbb23ed1ce2ecdfaf494f2fa27822ebef87465",
+      "deps": [],
+      "desc": "vorbis-tools package"
+    },
+    "xmlstarlet": {
+      "version": "1.6.1_4",
+      "size": 38046,
+      "sha256": "327a61a67ebd901586dfb71f79a3d9755ed5601419436425070f96e19a771f3f",
+      "deps": [],
+      "desc": "xmlstarlet package"
+    },
+    "dmidecode": {
+      "version": "3.5_3ubuntu0.1",
+      "size": 64601,
+      "sha256": "4cfa08098ef47c303bb8913aa8906b029ba59e0205809e28bb760fc4916041ae",
+      "deps": [],
+      "desc": "dmidecode package"
+    },
+    "grep": {
+      "version": "3.11_4build1",
+      "size": 92988,
+      "sha256": "4b362d7362cfa849095abddbfc3ff5d09ff4e9f70a71eccf776065644864258d",
+      "deps": [],
+      "desc": "grep package"
+    },
+    "borgbackup": {
+      "version": "1.2.8_1",
+      "size": 715,
+      "sha256": "bafe8f237fc8dbab9dfb3879e7c8d416fbfb6c99fe6103a7bdd17834600a1086",
+      "deps": [],
+      "desc": "borgbackup package"
+    },
+    "openssl": {
+      "version": "3.0.13_0ubuntu3.6",
+      "size": 383188,
+      "sha256": "ccf94902b81c9fb472817d8abd3344a0547d60e9617b879ef81b62e21a6e3a7d",
+      "deps": [],
+      "desc": "openssl package"
+    },
+    "make": {
+      "version": "4.3_4.1build2",
+      "size": 133155,
+      "sha256": "a2f1d8083dd4872313abd79c587f29d612551990f3d9521ff82bfa698e5544c6",
+      "deps": [],
+      "desc": "make package"
+    },
+    "nasm": {
+      "version": "2.16.01_1build1",
+      "size": 539036,
+      "sha256": "0ede0e2abdd89e13972c6b83c4851346662c9a90d009c2e686618afc6690043a",
+      "deps": [],
+      "desc": "nasm package"
+    },
+    "toilet": {
+      "version": "0.3_1.4build1",
+      "size": 8263,
+      "sha256": "7c0f323096309e3c05160be393cb191546df450b43c7316edf783a0fcd346d35",
+      "deps": [],
+      "desc": "toilet package"
+    },
+    "unrar": {
+      "version": "1_7.0.7_1build1",
+      "size": 194868,
+      "sha256": "7aa7a72cd88dc1391a861d74779c6b6821c53d758b413dbd7c7736f21b6ed2e7",
+      "deps": [],
+      "desc": "unrar package"
+    },
+    "mercurial": {
+      "version": "6.7.2_1ubuntu2.2",
+      "size": 15102,
+      "sha256": "a91b0a9248fa51a8516230d108f97a94e3278fdffb6c80f12c65a0a8dbfad73a",
+      "deps": [],
+      "desc": "mercurial package"
+    },
+    "aria2": {
+      "version": "1.37.0",
+      "size": 3366,
+      "sha256": "95cf5ea321f792c774fd044c008255ff4db03bcf32b1b031fcf2a1942aae86d3",
+      "deps": [],
+      "desc": "aria2 package"
+    },
+    "openssh-client": {
+      "version": "1_9.6p1_3ubuntu13.14",
+      "size": 823754,
+      "sha256": "d4535f39a6d45fb0c870e1bf7761b3cb320dab38f821345efc47703911cff7af",
+      "deps": [],
+      "desc": "openssh-client package"
+    },
+    "figlet": {
+      "version": "2.2.5_3",
+      "size": 32478,
+      "sha256": "eb976b0d100fcef8a3fe469fec6f4cc9c6ff8beb582f16ad67cc2c48d40fe805",
+      "deps": [],
+      "desc": "figlet package"
+    },
+    "vim": {
+      "version": "2_9.1.0016_1ubuntu7.9",
+      "size": 2195877,
+      "sha256": "ce3b5c92df096f2c5c8469534bfa6efe3c9b55bed829bc2904b6ade1573e5cdd",
+      "deps": [],
+      "desc": "vim package"
+    },
+    "lame": {
+      "version": "3.100_6build1",
+      "size": 43193,
+      "sha256": "081909be1f937292cf8815fb025a57ad7b7927d884ac0813bc54c7a3e41a99da",
+      "deps": [],
+      "desc": "lame package"
+    },
+    "groff": {
+      "version": "1.23.0_3build2",
+      "size": 554967,
+      "sha256": "0905cd4d30717cb2736633e3aa5cdd63f976fb9347f5c73b3825b0e9d11e50c0",
+      "deps": [],
+      "desc": "groff package"
+    },
+    "mc": {
+      "version": "3_4.8.30_1ubuntu0.1",
+      "size": 557149,
+      "sha256": "b76b4a8d6491bc2f244750e501876e67638eb6862b61151b916a54bd0b166e70",
+      "deps": [],
+      "desc": "mc package"
+    },
+    "socat": {
+      "version": "1.8.0.0_4build3",
+      "size": 206277,
+      "sha256": "84cbab0023b46db1a513be78f7534963dfa2b26d634537ed51c06a863e7637fe",
+      "deps": [],
+      "desc": "socat package"
+    },
+    "netcat-openbsd": {
+      "version": "1.226_1ubuntu2",
+      "size": 17450,
+      "sha256": "b2a9f0c8c0fa7a715b64a0020340247be50810b085043cb06be169e725272ef3",
+      "deps": [],
+      "desc": "netcat-openbsd package"
+    },
+    "wireshark-common": {
+      "version": "4.2.2_1.1build3",
+      "size": 338049,
+      "sha256": "5e237a563b51188da7b592c1b371157661ca1c05dba98a9b95efc1ad81ad9d25",
+      "deps": [],
+      "desc": "wireshark-common package"
+    },
+    "iproute2": {
+      "version": "6.1.0_1ubuntu6.2",
+      "size": 920531,
+      "sha256": "b82ef7d55773f83ac95eae190f8929a5d4081da0a7952169080b2e1ca4dbc2b7",
+      "deps": [],
+      "desc": "iproute2 package"
+    },
+    "at": {
+      "version": "3.2.5_2.1ubuntu3",
+      "size": 30780,
+      "sha256": "64b48ac25609fb756384f2972b2ba38a3214d54d631b4715c263362e8a321612",
+      "deps": [],
+      "desc": "at package"
+    },
+    "flex": {
+      "version": "2.6.4_8.2build1",
+      "size": 143293,
+      "sha256": "1296b8a07ada25a5351afc03672834d7311962bcfefea66f4981eb2e68f2d263",
+      "deps": [],
+      "desc": "flex package"
+    },
+    "asciinema": {
+      "version": "2.4.0_1",
+      "size": 343,
+      "sha256": "1358735e21c536245f521dc2d8bb5a0d40d376512f1bbf86bd5f1f0949a8086e",
+      "deps": [],
+      "desc": "asciinema package"
+    },
+    "mtr": {
+      "version": "0.95_1.1ubuntu0.1",
+      "size": 60439,
+      "sha256": "5f6dee8aa3aade8ff7f44947e73cef510a33b1bc9c75216a6797071c8efac6c5",
+      "deps": [],
+      "desc": "mtr package"
+    },
+    "curl": {
+      "version": "8.5.0_2ubuntu10.6",
+      "size": 166187,
+      "sha256": "b414c0d4f2d200369ba9b89c7802ad42306bea4db4ae895cd37f6edb5b192c0f",
+      "deps": [],
+      "desc": "curl package"
+    },
+    "fish": {
+      "version": "3.7.0_1",
+      "size": 1298951,
+      "sha256": "8c7f30198abe935b96e5ca6f3dad2cfe20f7b94a95f04ce107d26cc5e3d20ae9",
+      "deps": [],
+      "desc": "fish package"
+    },
+    "skopeo": {
+      "version": "1.13.3",
+      "size": 7464342,
+      "sha256": "51ac5cee79b16a684f2fe5f9680063df6b52ec968622d0ec97ec0404cc45b2df",
+      "deps": [],
+      "desc": "skopeo package"
+    },
+    "autoconf": {
+      "version": "2.71_3",
+      "size": 42055,
+      "sha256": "6cdf3c478f8a35ecd02a652d061f2a394652a954260ad2ac4010d4f20f490604",
+      "deps": [],
+      "desc": "autoconf package"
+    },
+    "perf-tools-unstable": {
+      "version": "1.0.1~20200130",
+      "size": 28927,
+      "sha256": "c0a8780f77ac7ce0131c7f41a6ee0f06900ddbca5ab680a5d500eb1459a3b7f5",
+      "deps": [],
+      "desc": "perf-tools-unstable package"
+    },
+    "ripgrep": {
+      "version": "14.1.0_1",
+      "size": 1830761,
+      "sha256": "716edf2b3b1f136dff69df90856c7ae1d5836d4188473561ab75ca3dfe61f389",
+      "deps": [],
+      "desc": "ripgrep package"
     }
   },
   "bundles": {
-    "dev-rust": [
-      "rustup",
-      "cargo-watch",
-      "rust-analyzer"
+    "aura-core": [
+      "pls",
+      "yplay"
     ],
     "gaming": [
       "steam",
       "discord",
       "lutris"
     ],
-    "aura-core": [
-      "pls",
-      "yplay"
+    "dev-rust": [
+      "rustup",
+      "cargo-watch",
+      "rust-analyzer"
     ]
   }
 }
