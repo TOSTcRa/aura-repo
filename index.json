@@ -199,9 +199,9 @@
       "desc": "lsof package"
     },
     "pls": {
-      "version": "0.2.3",
-      "size": 2067440,
-      "sha256": "93c684cd675fd2760674615bb5d17b7d8b98bc747fa979aec26cf8085031a893",
+      "version": "0.2.4",
+      "size": 2064873,
+      "sha256": "ac112648a0f570ae06a87603a5524d1d5e7f86083137c02a08235972b00d0f74",
       "deps": [],
       "desc": "pls package"
     },
